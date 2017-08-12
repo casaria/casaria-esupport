@@ -3254,14 +3254,14 @@ function DrawTableSupporterTotals($array, $id, $title)
 							$mult = 1;
 							$suffix = " (engineer):";							
 						}						
-						echo '<tr><td class=subcat width=20%> $items[user_name] $suffix </td><td class=back>';
+						echo '<tr><td class=subcat width=20%> $items[user_name]'.$suffix.'</td><td class=back>';
 					  $time_engineer = $items['sum'] ;
 						showFormattedTime( $time_engineer * 60 );
 						if ($items['after_hours'] == 1) {
 							echo "  (after hours  x 1.5)->       ";	showFormattedTime($items['sum'] * 60 * 1.5);
 						}
 						$time_engineer *= $mult; 
-						$supporter_engineer_total[$items['user_name'].$suffix] += $time_engineer ;
+						$supporter_engineer_total[$items['user_name']] += $time_engineer ;
 					  if($time_engineer != 0){
 							$percentage = number_format($time_engineer/$total_time * 100, 2);
 							echo "  (".$percentage."%)";

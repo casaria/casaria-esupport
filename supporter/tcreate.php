@@ -224,7 +224,7 @@ function createSupporterUserMenu($group_id)
 	global $mysql_users_table, $db, $sg, $ug, $userid, $cookie_name;
 
 	
-		$sql = "select id,user_name,supporter from $mysql_users_table order by user_name asc where supporter = 0";
+		$sql = "select id,user_name,supporter from $mysql_users_table where supporter = 0 order by user_name asc ";
 
 	$result = $db->query($sql);
 

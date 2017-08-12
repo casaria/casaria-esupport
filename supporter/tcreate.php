@@ -69,7 +69,7 @@ if(isset($create)){
 	}
 	
 	
-		$short = addslashes(stripScripts($short));
+    $short = addslashes(stripScripts($short));
 	$description = addslashes(stripScripts($description));
 	//$ugroup_id = getUGroupId($usergroup_name);
 	$ugroup_id=$ug;
@@ -170,7 +170,7 @@ function createSupporterInfo()
 				?>
 			    	<select name=usergroup_name onChange="MM_jumpMenu('parent', this, 0)">
 				<?php					
-				$ug=createUGroupsMenu();
+				$ug=createUGroupsMenu($sg);
 				echo '</select>				
 				</td></tr>					
 		

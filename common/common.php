@@ -3362,7 +3362,7 @@ function displayTimeHistory()
 	echo '</td>';
 
 	echo'</td> <td class=back2> <B>';
-	showFormattedTime($minutes * 60 + $minutes_after_hours  * 60, 1);
+	showFormattedTime(($minutes * 60 )+ ($minutes_after_hours  * 60), 1);
 	echo '</B></td>';
 
 	endTable();

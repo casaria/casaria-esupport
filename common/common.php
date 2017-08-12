@@ -3249,12 +3249,12 @@ function DrawTableSupporterTotals($array, $id, $title)
 					foreach($supporters_engineer_rate as $items){
 						if ($items['after_hours'] == 1) {
 							$mult = 1.5;
-							$suffix = " (engineer/after_hrs):";
+							$suffix = " (engineer after_hrs):";
 						} else {
 							$mult = 1;
 							$suffix = " (engineer):";							
 						}						
-						echo "<tr><td class=subcat width=20%>" . $items['user_name'].$suffix." </td><td class=back>";
+						echo '<tr><td class=subcat width=20%> $items[user_name] $suffix </td><td class=back>';
 					  $time_engineer = $items['sum'] ;
 						showFormattedTime( $time_engineer * 60 );
 						if ($items['after_hours'] == 1) {

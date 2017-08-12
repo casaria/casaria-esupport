@@ -206,7 +206,7 @@ function createSupporterInfo()
 				<td class=back>
 				<select name=status>';
 				
-				createStatusMenu();  
+				createStatusMenu(1,1);
 							
 		echo '</select>
 				</td>

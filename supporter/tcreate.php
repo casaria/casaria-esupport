@@ -220,32 +220,35 @@ function createSupporterInfo()
 
 function createSupporterUserMenu($group_id)
 {
-	global $mysql_users_table, $db, $sg, $ug, $userid, $cookie_name;
+    global $mysql_users_table, $db, $sg, $ug, $userid, $cookie_name;
 
-	
-		$sql = "select id, user_name, supporter, first_name, last_name From $mysql_users_table where supporter = 0 order by user_name asc";
 
-	$result = $db->query($sql);
+    $sql = "select id,user_name,supporter from $mysql_users_table order by supporter desc, user_name asc";
+    //$table = $mysql_users_table;
 
-	while($row = $db->fetch_row($result)){
-		echo "<option value=\"index.php?t=tcre&sg=$sg&ug=$ug&userid=$row[0]\"";
-		if (!isset($userid) || $userid=="") {
-			if ($cookie_name == $row[1]){
-				echo " selected";
-				$userid = $row[0];	
-			}
-		}
-		else
-			if($userid == $row[0]){
-				echo " selected";
-				$userid = $row[0];
-			}
-		echo "> $row[1]"; echo ($row[2]==1) ? " (supporter)": "" ; 
-		echo" </option>";
-	}
 
-	return $userid;
+    $result = $db->query($sql);
+
+    while($row = $db->fetch_row($result)){
+        echo "<option value=\"index.php?t=tcre&sg=$sg&ug=$ug&userid=$row[0]\"";
+        if (!isset($userid) || $userid=="") {
+            if ($cookie_name == $row[1]){
+                echo " selected";
+                $userid = $row[0];
+            }
+        }
+        else
+            if($userid == $row[0]){
+                echo " selected";
+                $userid = $row[0];
+            }
+        echo "> $row[1]"; echo ($row[2]==1) ? " (supporter)": "" ;
+        echo" </option>";
+    }
+
+    return $userid;
 }
+
 
 function createSupporterMenu($group_id)
 {

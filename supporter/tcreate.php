@@ -190,7 +190,6 @@ function createSupporterInfo()
 				<select name=supporter_id>';
 				createSupporterMenu($sg);
 				echo '</select>
-				
 				</td>
 				</tr>
 				<tr>

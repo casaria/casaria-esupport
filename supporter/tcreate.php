@@ -248,8 +248,6 @@ function createSupporterUserMenu($group_id)
 
     return $userid;
 }
-
-
 function createSupporterMenu($group_id)
 {
 	global $mysql_users_table, $db, $cookie_name;
@@ -338,7 +336,7 @@ function createSupportGroupMenu($ugroup=1)
 
 function createUserInfo()
 {
-	global $db, $mysql_users_table, $lang_createdby, $lang_username, $sg, $userid, $lang_email, $lang_office, $lang_phoneext;
+	global $db, $mysql_users_table, $lang_createdby, $lang_username,$Ug, $userid, $lang_email, $lang_office, $lang_phoneext;
  	
  
  

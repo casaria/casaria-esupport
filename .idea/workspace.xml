@@ -7,12 +7,9 @@
     <bookmark url="file://$PROJECT_DIR$/supporter/tsearch.php" line="668" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+    <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="KBASE/ADD changed the submit form  $PHP_SELF">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/kbase/add.php" afterPath="$PROJECT_DIR$/kbase/add.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lang/English.lang.php" afterPath="$PROJECT_DIR$/lang/English.lang.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supporter/index.php" afterPath="$PROJECT_DIR$/supporter/index.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -678,16 +675,16 @@
       <file leaf-file-name="add.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/kbase/add.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+            <state relative-caret-position="349">
+              <caret line="74" column="43" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
               <folding>
                 <element signature="e#7#1363#0#PHP" expanded="true" />
-                <marker date="1504389897300" expanded="true" signature="1728:1879" ph="INSERT into ${$mysql_kbase_table}... " />
-                <marker date="1504389897300" expanded="true" signature="2438:2594" ph="INSERT into ${$mysql_attachments_table}... " />
-                <marker date="1504389897300" expanded="true" signature="3526:3694" ph="..." />
-                <marker date="1504389897300" expanded="true" signature="3564:3593" ph="..." />
-                <marker date="1504389897300" expanded="true" signature="3720:3890" ph="..." />
-                <marker date="1504389897300" expanded="true" signature="3758:3785" ph="..." />
+                <marker date="1504391045659" expanded="true" signature="1728:1879" ph="INSERT into ${$mysql_kbase_table}... " />
+                <marker date="1504391045659" expanded="true" signature="2469:2625" ph="INSERT into ${$mysql_attachments_table}... " />
+                <marker date="1504391045659" expanded="true" signature="3579:3747" ph="..." />
+                <marker date="1504391045659" expanded="true" signature="3617:3646" ph="..." />
+                <marker date="1504391045659" expanded="true" signature="3773:3943" ph="..." />
+                <marker date="1504391045659" expanded="true" signature="3811:3838" ph="..." />
               </folding>
             </state>
           </provider>
@@ -1183,21 +1180,7 @@
       <workItem from="1502149360057" duration="1603000" />
       <workItem from="1502561966020" duration="24122000" />
       <workItem from="1504196463964" duration="2994000" />
-      <workItem from="1504345799376" duration="2617000" />
-    </task>
-    <task id="LOCAL-00147" summary="line height CSS  for  &quot;tittlium web&quot;">
-      <created>1501205508564</created>
-      <option name="number" value="00147" />
-      <option name="presentableId" value="LOCAL-00147" />
-      <option name="project" value="LOCAL" />
-      <updated>1501205508564</updated>
-    </task>
-    <task id="LOCAL-00148" summary="line height CSS  for  &quot;tittlium web&quot;">
-      <created>1501205552478</created>
-      <option name="number" value="00148" />
-      <option name="presentableId" value="LOCAL-00148" />
-      <option name="project" value="LOCAL" />
-      <updated>1501205552479</updated>
+      <workItem from="1504345799376" duration="3735000" />
     </task>
     <task id="LOCAL-00149" summary="line height CSS  for  &quot;tittlium web&quot;">
       <created>1501206171719</created>
@@ -1528,11 +1511,25 @@
       <option name="project" value="LOCAL" />
       <updated>1502709130000</updated>
     </task>
-    <option name="localTasksCounter" value="196" />
+    <task id="LOCAL-00196" summary="KBASE/ADD changed the submit form  $PHP_SELF">
+      <created>1504389966020</created>
+      <option name="number" value="00196" />
+      <option name="presentableId" value="LOCAL-00196" />
+      <option name="project" value="LOCAL" />
+      <updated>1504389966020</updated>
+    </task>
+    <task id="LOCAL-00197" summary="KBASE/ADD changed the submit form  $PHP_SELF">
+      <created>1504390530599</created>
+      <option name="number" value="00197" />
+      <option name="presentableId" value="LOCAL-00197" />
+      <option name="project" value="LOCAL" />
+      <updated>1504390530599</updated>
+    </task>
+    <option name="localTasksCounter" value="198" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="144564000" />
+    <option name="totallyTimeSpent" value="145682000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1547,25 +1544,25 @@
     <frame x="-6" y="-6" width="1381" height="925" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18641509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33900523" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28085643" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="true" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.005283019" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41939548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3274559" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884097" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289225" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18641509" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.005283019" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41939548" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28085643" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3274559" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1604,7 +1601,6 @@
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="SHOW_DIRTY_RECURSIVELY" value="true" />
-    <MESSAGE value="Fixed ticket search, number of tickets displayed, stop date,  replaced eregi_replace with preg_replace,  eregi   with preg_match" />
     <MESSAGE value="Icon credits" />
     <MESSAGE value="Iconj Accounting  (billing status) added to displayticket" />
     <MESSAGE value="fix typos" />
@@ -1629,7 +1625,8 @@
     <MESSAGE value="$lang_ticket`" />
     <MESSAGE value="set_cookie" />
     <MESSAGE value="CHanged to textarea for input field refrence in tupdate.phbp" />
-    <option name="LAST_COMMIT_MESSAGE" value="CHanged to textarea for input field refrence in tupdate.phbp" />
+    <MESSAGE value="KBASE/ADD changed the submit form  $PHP_SELF" />
+    <option name="LAST_COMMIT_MESSAGE" value="KBASE/ADD changed the submit form  $PHP_SELF" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -2885,16 +2882,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/kbase/add.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="76" column="30" lean-forward="true" selection-start-line="76" selection-start-column="30" selection-end-line="76" selection-end-column="30" />
+        <state relative-caret-position="349">
+          <caret line="74" column="43" lean-forward="false" selection-start-line="74" selection-start-column="43" selection-end-line="74" selection-end-column="43" />
           <folding>
             <element signature="e#7#1363#0#PHP" expanded="true" />
-            <marker date="1504389897300" expanded="true" signature="1728:1879" ph="INSERT into ${$mysql_kbase_table}... " />
-            <marker date="1504389897300" expanded="true" signature="2438:2594" ph="INSERT into ${$mysql_attachments_table}... " />
-            <marker date="1504389897300" expanded="true" signature="3526:3694" ph="..." />
-            <marker date="1504389897300" expanded="true" signature="3564:3593" ph="..." />
-            <marker date="1504389897300" expanded="true" signature="3720:3890" ph="..." />
-            <marker date="1504389897300" expanded="true" signature="3758:3785" ph="..." />
+            <marker date="1504391045659" expanded="true" signature="1728:1879" ph="INSERT into ${$mysql_kbase_table}... " />
+            <marker date="1504391045659" expanded="true" signature="2469:2625" ph="INSERT into ${$mysql_attachments_table}... " />
+            <marker date="1504391045659" expanded="true" signature="3579:3747" ph="..." />
+            <marker date="1504391045659" expanded="true" signature="3617:3646" ph="..." />
+            <marker date="1504391045659" expanded="true" signature="3773:3943" ph="..." />
+            <marker date="1504391045659" expanded="true" signature="3811:3838" ph="..." />
           </folding>
         </state>
       </provider>

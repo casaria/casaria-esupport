@@ -69,7 +69,7 @@ if($add == $lang_addtokb)
 			
 }
 else{
-	echo "<form method=\"post\" name=\"input\" action=\"$PHP_SELF\" enctype=\"multipart/form-data\">";
+	echo "<form method=\"post\" name=\"input\" action=\"$_SERVER[$PHP_SELF]\" enctype=\"multipart/form-data\">";
 	startTable("$lang_addtokb", "center", 100, 4);
 		echo '<tr><td class=back2 align=right width=27%>'.$lang_platform.':</td> <td class=back>';
 		echo '<select name=platform>';

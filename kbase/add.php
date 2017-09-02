@@ -48,7 +48,8 @@ if($add == $lang_addtokb)
 		if($db->query($sql)){				//if the query goes ok, print out the success message.
 			if($enable_kattachments == 'On'){
 				$kid = $db->insert_id();			//get the id of the inserted question/answer
-					if($the_file != "none" && $the_file != ""){		//we have a file so we need to do something with it
+					if(isset($the_file) && ($the_file != "none") && ($the_file != "")){		//we have a file so we need to do something with it
+
                                                 $attachment = addslashes(fread(fopen($the_file, "rb"), filesize($the_file)));
 						if($the_file_type=="application/x-gzip-compressed"){
 							$attachment = base64_decode($attachment);

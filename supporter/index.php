@@ -110,9 +110,8 @@ border=0>
             <TABLE width="100%" align=center border=0>
               <TBODY> 
               <TR> 
-                <TD vAlign=top width="200"> 
-                  <TABLE class=border cellSpacing=0 cellPadding=0 width="100%" 
-                  align=center border=0>
+                <TD vAlign=top width="190"> 
+                    <TABLE class=border cellSpacing=0 cellPadding=0 width="100%" border-spacing="1px" align=center border=0>
                     <TBODY> 
                     <TR> 
                       <TD> 

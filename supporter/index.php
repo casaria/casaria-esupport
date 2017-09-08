@@ -385,9 +385,9 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
 
 		  echo '
             <div align="center">
-			<A class=hf href="'.$supporter_site_url.'/index.php">'.$lang_home.'</A> |&nbsp;';
+                <A class=hf href="'.$supporter_site_url.'/index.php">'.$lang_home.'</A> |&nbsp;';
 			if(isAdministrator($cookie_name)){
-				echo '<A class=hf href="'.$admin_site_url.'/control.php">'.$lang_cp.'</a> |&nbsp;';
+				echo '<A class=hf href="'.$admin_site_url.'/control.php">'.$lang_cp.'</A> |&nbsp;';
 			}
 			if($enable_forum == 'On'){
 				echo '<A class=hf href="'.$forum_site_url.'" target=_blank>'.$lang_forum.'</A> |&nbsp;';
@@ -404,10 +404,10 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
 
           </TD>
         </TR>
-        </TBODY> 
+        </TBODY>
       </TABLE>
   </TR>
-  </TBODY> 
+  </TBODY>
 </TABLE>
 
 <?php

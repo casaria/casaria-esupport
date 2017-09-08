@@ -139,7 +139,7 @@ startTable("$lang_youropen", "center");
 	$summary = listOpenTickets($supporter_id, $s, $filter);
 
 	endTable();
-echo "$lang_summary: $lang_recordcount $summary[recordcount] $summary[remarks]";	
+	echo "$lang_summary: $lang_recordcount $summary[recordcount] $summary[remarks]";
 endTable();
 
 
@@ -266,6 +266,7 @@ function listByPriority($id, $order)
 
 	$sql = "select * from $mysql_tickets_table where ";
 	$prios = getPriorityList();
+	$flag = 0;
 	for($i=0; $i<sizeof($prios); $i++){
 		if($flag != 1){
 			$sql .= "priority!='" . $prios[$i] . "'";

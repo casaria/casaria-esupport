@@ -1092,13 +1092,10 @@ function getRStatus($rank)
 ************************************************************************************************************/
 function getHighestRank($table)
 {
-	global $mysql_tstatus_table, $db;
+	global  $db;
 
-	if($table == $mysql_tstatus_table) {
-        $sql = "select id from $table order by rank desc";
-    }else{
-		$sql = "select id from $table order by rank asc";
-	}
+	$sql = "select id from $table order by rank desc";
+
 	
 	$result = $db->query($sql);
 	$row = $db->fetch_row($result);
@@ -1441,7 +1438,7 @@ function createBillingStatusMenu($flag = 0, $new = 0)
 {
     global $mysql_tBillingStatus_table, $info, $db;
 
-    $sql = "select id,status, default_create from $mysql_tBillingStatus_table order by rank asc";
+    $sql = "select id, status, default_create from $mysql_tBillingStatus_table order by rank asc";
     $result = $db->query($sql, $mysql_tBillingStatus_table);
 
     if($flag == 1)

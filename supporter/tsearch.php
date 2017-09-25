@@ -127,6 +127,17 @@ if(isset($search) || isset($s)) {
 			$sset = 1;
 		}
 
+		if (isset($billingstatus) && $billingstatus != '') {
+            if ($flag != 1 || !isset($flag)) {
+                $sql .= " BILLING_STATUS='$billingstatus'";
+                $flag = 1;
+            } else {
+                $sql .= " $andor BILLING_STATUS='$billingstatus'";
+                $flag = 1;
+            }
+
+            $pset = 1;
+        }
 		if (isset($user) && $user != '') {
 			if ($flag != 1 || !isset($flag)) {
 				$sql .= " user='$user'";

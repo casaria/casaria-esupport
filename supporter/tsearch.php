@@ -144,7 +144,7 @@ if(isset($search) || isset($s)) {
                 $sql .= " BILLING_STATUS !='" . getRStatus(getHighestRank( $mysql_tBillingStatus_table)) . "'";;
                 $flag = 1;
             } else {
-                $sql .= " $andor BILLING_STATUS!='" . getRStatus(getHighestRank( $mysql_tBillingStatus_table)) . "'";
+                $sql .= " $andor BILLING_STATUS !='" . getRStatus(getHighestRank( $mysql_tBillingStatus_table)) . "'";
                 $flag = 1;
             }
 

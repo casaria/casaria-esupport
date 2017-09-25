@@ -541,11 +541,12 @@ if(isset($search) || isset($s)) {
 						</select>
 						</td>
 						</tr>
+
 						<TR>
 						<TD class=back2 align=right width=27%>'.$lang_ticket.' '.$lang_billingStatus.': </td>
 						<td class=back><select name=billingstatus>';
 							createBillingStatusMenu(1);
-	echo '				<option value=\"9999\">'.$lang_notbilled.'</option>
+	echo '				<option value=notbilled>'.$lang_notbilled.'</option>
 						</select>
 						</td>
 						</tr>

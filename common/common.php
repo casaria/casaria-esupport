@@ -1094,7 +1094,7 @@ function getHighestRank($table)
 {
 	global  $db;
 
-	$sql = "select id from $table order by rank desc";
+		 $sql = "select id from $table order by rank desc";
 
 	
 	$result = $db->query($sql);

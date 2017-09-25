@@ -128,7 +128,7 @@ if(isset($search) || isset($s)) {
 
 		if (isset($billingstatus) && $billingstatus != '' && $billingstatus != '9999' ) {
             if ($flag != 1 || !isset($flag)) {
-                $sql .= " BILLING_STATUS !='$billingstatus'";
+                $sql .= " BILLING_STATUS='$billingstatus'";
                 $flag = 1;
             } else {
                 $sql .= " $andor BILLING_STATUS='$billingstatus'";

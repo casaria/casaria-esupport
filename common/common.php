@@ -946,7 +946,6 @@ function getuGroup($id)
 	$sql = "select group_name from $mysql_ugroups_table where id=$id";
 	$result = $db->query($sql);
 	$row = $db->fetch_row($result);
--
 	return $row[0];
 
 }

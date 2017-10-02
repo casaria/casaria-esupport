@@ -1094,9 +1094,9 @@ function getHighestRank($table)
 {
 	global  $db;
 
-		 $sql = "select id from $table order by rank desc";
+	$sql = "select id from $table order by rank desc";
 
-	
+
 	$result = $db->query($sql);
 	$row = $db->fetch_row($result);
 	return $row[0];
@@ -1120,11 +1120,11 @@ function getLowestRank($table)
 	else{
 		$sql = "select id, default_create from $table order by rank desc";
 	}
-	
+
 	$result = $db->query($sql);
-	
+
 	while($row = $db->fetch_array($result)){
-	     
+
 	     if ($row["default_create"]) return $row[0];
 	}
 }
@@ -1144,12 +1144,12 @@ function getHoldRank($table)
 	else{
 		$sql = "select id, default_create from $table order by rank desc";
 	}
-	
+
 	$result = $db->query($sql);
-	
+
 	$row = $db->fetch_array($result);
         return $row[0];
-	
+
 }
 
 /***********************************************************************************************************
@@ -1430,33 +1430,33 @@ function createPriorityMenu($flag=0, $all=true)
 }
 
 
-	/***********************************************************************************************************
-	 **	function createBillingStatusMenu():
-	 **		Takes no arguments.  Creates the drop down menu for the billing status list.
-	 ************************************************************************************************************/
-	function createBillingStatusMenu($flag = 0, $new = 0)
-	{
-		global $mysql_tBillingStatus_table, $info, $db;
+/***********************************************************************************************************
+ **	function createBillingStatusMenu():
+ **		Takes no arguments.  Creates the drop down menu for the billing status list.
+ ************************************************************************************************************/
+function createBillingStatusMenu($flag = 0, $new = 0)
+{
+    global $mysql_tBillingStatus_table, $info, $db;
 
-		$sql = "select id, status, default_create from $mysql_tBillingStatus_table order by rank asc";
-		$result = $db->query($sql, $mysql_tBillingStatus_table);
+    $sql = "select id, status, default_create from $mysql_tBillingStatus_table order by rank asc";
+    $result = $db->query($sql, $mysql_tBillingStatus_table);
 
-		if($flag == 1)
-			echo "<option></option>";
+    if($flag == 1)
+        echo "<option></option>";
 
-		while($row = $db->fetch_array($result)){
-			echo "<option value=\"$row[id]\" ";
-			if ($new){
-				if($row['default_create']) echo "selected";
-			}
-			else{
-				if($info['status'] == $row['status']) echo "selected";
-			}
-			echo "> $row[status]  </option><br>";
+    while($row = $db->fetch_array($result)){
+        echo "<option value=\"$row[id]\" ";
+        if ($new){
+            if($row['default_create']) echo "selected";
+        }
+        else{
+            if($info['status'] == $row['status']) echo "selected";
+        }
+        echo "> $row[status]  </option><br>";
 
-		}
+    }
 
-	}
+}
 /***********************************************************************************************************
 **	function createStatusMenu():
 **		Takes no arguments.  Creates the drop down menu for the status list.

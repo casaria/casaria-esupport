@@ -1430,33 +1430,33 @@ function createPriorityMenu($flag=0, $all=true)
 }
 
 
-/***********************************************************************************************************
- **	function createBillingStatusMenu():
- **		Takes no arguments.  Creates the drop down menu for the billing status list.
- ************************************************************************************************************/
-function createBillingStatusMenu($flag = 0, $new = 0)
-{
-    global $mysql_tBillingStatus_table, $info, $db;
+	/***********************************************************************************************************
+	 **	function createBillingStatusMenu():
+	 **		Takes no arguments.  Creates the drop down menu for the billing status list.
+	 ************************************************************************************************************/
+	function createBillingStatusMenu($flag = 0, $new = 0)
+	{
+		global $mysql_tBillingStatus_table, $info, $db;
 
-    $sql = "select id, status, default_create from $mysql_tBillingStatus_table order by rank asc";
-    $result = $db->query($sql, $mysql_tBillingStatus_table);
+		$sql = "select id, status, default_create from $mysql_tBillingStatus_table order by rank asc";
+		$result = $db->query($sql, $mysql_tBillingStatus_table);
 
-    if($flag == 1)
-        echo "<option></option>";
+		if($flag == 1)
+			echo "<option></option>";
 
-    while($row = $db->fetch_array($result)){
-        echo "<option value=\"$row[id]\" ";
-        if ($new){
-            if($row['default_create']) echo "selected";
-        }
-        else{
-            if($info['status'] == $row['status']) echo "selected";
-        }
-        echo "> $row[status]  </option><br>";
+		while($row = $db->fetch_array($result)){
+			echo "<option value=\"$row[id]\" ";
+			if ($new){
+				if($row['default_create']) echo "selected";
+			}
+			else{
+				if($info['status'] == $row['status']) echo "selected";
+			}
+			echo "> $row[status]  </option><br>";
 
-    }
+		}
 
-}
+	}
 /***********************************************************************************************************
 **	function createStatusMenu():
 **		Takes no arguments.  Creates the drop down menu for the status list.

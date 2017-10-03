@@ -1817,7 +1817,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
                                 echo '<td class=back2 width=100 align=right>* ' . $lang_date . ':</td>
 								<td class=back><select name=date>';
                                 createEquipmentMenu(0, $equipmentgroupid);
-                                echo '	</select></td>':
+                                echo '	</select></td>';
 							}
 
 							echo'									

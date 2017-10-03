@@ -87,17 +87,15 @@ if(isset($create)){
         $ctimestamp = $time;
     }
 
-	
+	//SELECT * FROM Table ORDER BY ID DESC LIMIT 1
 	$sql = "INSERT into $mysql_tickets_table values (NULL, $ctimestamp, $sg, $ugroup_id, '$name',
 	 			 $supporter_id, '$priority', '$status', '$billing_status',	'$username', '$email', '$office', '$phone',
 				 '$equipment', '$category', '$platform', '$short', '$description', NULL, 0, $ctimestamp,
 				 '$emailgroup', '$emailstatuschange', '$emailcc', 0)";
-
-	
 	$db->query($sql);
 
 	//grab the id number of the ticket so we can create the created by in the update log.
-	$sql = "SELECT id from $mysql_tickets_table where create_date='$time' and user='$username' and short='$short' and description='$description'";
+	$sql = "SELECT id from $mysql_tickets_table where create_date=$ctimestamp and user='$username' and short='$short'";
 	$result = $db->query($sql);
 	$row = $db->fetch_row($result);
 	$id = $row[0];

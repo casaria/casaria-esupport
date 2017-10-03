@@ -423,39 +423,39 @@
       <file leaf-file-name="tcreate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supporter/tcreate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+            <state relative-caret-position="304">
+              <caret line="89" column="50" lean-forward="false" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
               <folding>
-                <marker date="1507047786255" expanded="true" signature="2931:3274" ph="INSERT into ${$mysql_tickets_table}... " />
-                <marker date="1507047786255" expanded="true" signature="2989:3274" ph="INSERT into ${$mysql_tickets_table}... " />
-                <marker date="1507047786255" expanded="true" signature="3216:3274" ph="INSERT into ${$mysql_tickets_table}... " />
-                <marker date="1507047786255" expanded="true" signature="3396:3528" ph="SELECT id fr... ${$mysql_tickets_table}" />
-                <marker date="1507047786255" expanded="true" signature="3765:3824" ph="update ${$my... " />
-                <marker date="1507047786255" expanded="true" signature="4034:4141" ph="INSERT into ${$mysql_time_table}... " />
-                <marker date="1507047786255" expanded="true" signature="5851:5870" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="5851:5957" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="6148:6251" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="6506:6537" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="6618:6749" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="6722:6749" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="6922:6947" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="7181:7273" ph="select id,us... ${$mysql_users_table}" />
-                <marker date="1507047786255" expanded="true" signature="8065:8149" ph="select id,us... ${$mysql_users_table}" />
-                <marker date="1507047786255" expanded="true" signature="8236:8295" ph="select user_... ${$table}" />
-                <marker date="1507047786255" expanded="true" signature="8731:8855" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="8942:9073" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="9165:9330" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="9248:9320" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="9571:9630" ph="select defau... ${$mysql_ugroups_table}" />
-                <marker date="1507047786255" expanded="true" signature="9833:9898" ph="select id, g... ${$mysql_sgroups_table}" />
-                <marker date="1507047786255" expanded="true" signature="10544:10647" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="10544:10656" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="10839:10881" ph="select * fro... ${$mysql_users_table}" />
-                <marker date="1507047786255" expanded="true" signature="11079:11154" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="11173:11507" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="11191:11507" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="11268:11345" ph="..." />
-                <marker date="1507047786255" expanded="true" signature="11432:11507" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="2977:3320" ph="INSERT into ${$mysql_tickets_table}... " />
+                <marker date="1507048443449" expanded="true" signature="3035:3320" ph="INSERT into ${$mysql_tickets_table}... " />
+                <marker date="1507048443449" expanded="true" signature="3262:3320" ph="INSERT into ${$mysql_tickets_table}... " />
+                <marker date="1507048443449" expanded="true" signature="3439:3544" ph="SELECT id fr... ${$mysql_tickets_table}" />
+                <marker date="1507048443449" expanded="true" signature="3781:3840" ph="update ${$my... " />
+                <marker date="1507048443449" expanded="true" signature="4050:4157" ph="INSERT into ${$mysql_time_table}... " />
+                <marker date="1507048443449" expanded="true" signature="5867:5886" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="5867:5973" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="6164:6267" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="6522:6553" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="6634:6765" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="6738:6765" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="6938:6963" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="7197:7289" ph="select id,us... ${$mysql_users_table}" />
+                <marker date="1507048443449" expanded="true" signature="8081:8165" ph="select id,us... ${$mysql_users_table}" />
+                <marker date="1507048443449" expanded="true" signature="8252:8311" ph="select user_... ${$table}" />
+                <marker date="1507048443449" expanded="true" signature="8747:8871" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="8958:9089" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="9181:9346" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="9264:9336" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="9587:9646" ph="select defau... ${$mysql_ugroups_table}" />
+                <marker date="1507048443449" expanded="true" signature="9849:9914" ph="select id, g... ${$mysql_sgroups_table}" />
+                <marker date="1507048443449" expanded="true" signature="10560:10663" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="10560:10672" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="10855:10897" ph="select * fro... ${$mysql_users_table}" />
+                <marker date="1507048443449" expanded="true" signature="11095:11170" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="11189:11523" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="11207:11523" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="11284:11361" ph="..." />
+                <marker date="1507048443449" expanded="true" signature="11448:11523" ph="..." />
               </folding>
             </state>
           </provider>
@@ -537,6 +537,17 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="tickets" pinned="false" current-in-tab="false">
+        <entry file="das://table:/8e28a8ad/0fef9fff-b91c-41a0-98a6-099749727d3e/casaria_hdesk1.tickets">
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true">
+                <filter text="3228" />
+              </filtering>
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
@@ -569,8 +580,8 @@
       <find>lang_crea</find>
       <find>today</find>
       <find>createD</find>
-      <find>langf</find>
       <find>cmon</find>
+      <find>langf</find>
     </findStrings>
     <replaceStrings>
       <replace>$summary = displayTicket($result);</replace>
@@ -653,7 +664,7 @@
   <component name="ProjectFrameBounds">
     <option name="x" value="-14" />
     <option name="width" value="2744" />
-    <option name="height" value="1554" />
+    <option name="height" value="1836" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -812,14 +823,7 @@
       <workItem from="1506304782006" duration="3351000" />
       <workItem from="1506369804290" duration="13343000" />
       <workItem from="1506656109696" duration="3698000" />
-      <workItem from="1506894089749" duration="22432000" />
-    </task>
-    <task id="LOCAL-00229" summary="Casaria CRM space (cosmetic)">
-      <created>1507033013977</created>
-      <option name="number" value="00229" />
-      <option name="presentableId" value="LOCAL-00229" />
-      <option name="project" value="LOCAL" />
-      <updated>1507033013977</updated>
+      <workItem from="1506894089749" duration="23088000" />
     </task>
     <task id="LOCAL-00230" summary="Casaria CRM space (cosmetic)">
       <created>1507033639015</created>
@@ -1157,11 +1161,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507047579657</updated>
     </task>
-    <option name="localTasksCounter" value="278" />
+    <task id="LOCAL-00278" summary="localtime create time">
+      <created>1507047793596</created>
+      <option name="number" value="00278" />
+      <option name="presentableId" value="LOCAL-00278" />
+      <option name="project" value="LOCAL" />
+      <updated>1507047793596</updated>
+    </task>
+    <option name="localTasksCounter" value="279" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="210466000" />
+    <option name="totallyTimeSpent" value="211122000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1173,7 +1184,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="0" width="1372" height="777" extended-state="0" />
+    <frame x="-7" y="0" width="1372" height="918" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33900523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -1185,7 +1196,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299748" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24505328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29984778" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.29984778" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20652173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1200,6 +1211,31 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33900523" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2795031" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32823366" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32608697" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32828283" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289225" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299748" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32962447" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.63165903" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24505328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29984778" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.20652173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32981133" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39924434" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -1534,15 +1570,6 @@
             <marker date="1504409582021" expanded="true" signature="3774:3944" ph="..." />
             <marker date="1504409582021" expanded="true" signature="3812:3839" ph="..." />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="das://table:/8e28a8ad/0fef9fff-b91c-41a0-98a6-099749727d3e/casaria_hdesk1.tickets">
-      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
-        <state>
-          <filtering enabled="true">
-            <filter text="3228" />
-          </filtering>
         </state>
       </provider>
     </entry>
@@ -2142,41 +2169,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="das://table:/8e28a8ad/0fef9fff-b91c-41a0-98a6-099749727d3e/casaria_hdesk1.tickets">
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true">
+            <filter text="3228" />
+          </filtering>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/supporter/tcreate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="93" column="45" lean-forward="true" selection-start-line="93" selection-start-column="45" selection-end-line="93" selection-end-column="45" />
+        <state relative-caret-position="304">
+          <caret line="89" column="50" lean-forward="false" selection-start-line="89" selection-start-column="50" selection-end-line="89" selection-end-column="50" />
           <folding>
-            <marker date="1507047786255" expanded="true" signature="2931:3274" ph="INSERT into ${$mysql_tickets_table}... " />
-            <marker date="1507047786255" expanded="true" signature="2989:3274" ph="INSERT into ${$mysql_tickets_table}... " />
-            <marker date="1507047786255" expanded="true" signature="3216:3274" ph="INSERT into ${$mysql_tickets_table}... " />
-            <marker date="1507047786255" expanded="true" signature="3396:3528" ph="SELECT id fr... ${$mysql_tickets_table}" />
-            <marker date="1507047786255" expanded="true" signature="3765:3824" ph="update ${$my... " />
-            <marker date="1507047786255" expanded="true" signature="4034:4141" ph="INSERT into ${$mysql_time_table}... " />
-            <marker date="1507047786255" expanded="true" signature="5851:5870" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="5851:5957" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="6148:6251" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="6506:6537" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="6618:6749" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="6722:6749" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="6922:6947" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="7181:7273" ph="select id,us... ${$mysql_users_table}" />
-            <marker date="1507047786255" expanded="true" signature="8065:8149" ph="select id,us... ${$mysql_users_table}" />
-            <marker date="1507047786255" expanded="true" signature="8236:8295" ph="select user_... ${$table}" />
-            <marker date="1507047786255" expanded="true" signature="8731:8855" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="8942:9073" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="9165:9330" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="9248:9320" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="9571:9630" ph="select defau... ${$mysql_ugroups_table}" />
-            <marker date="1507047786255" expanded="true" signature="9833:9898" ph="select id, g... ${$mysql_sgroups_table}" />
-            <marker date="1507047786255" expanded="true" signature="10544:10647" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="10544:10656" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="10839:10881" ph="select * fro... ${$mysql_users_table}" />
-            <marker date="1507047786255" expanded="true" signature="11079:11154" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="11173:11507" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="11191:11507" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="11268:11345" ph="..." />
-            <marker date="1507047786255" expanded="true" signature="11432:11507" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="2977:3320" ph="INSERT into ${$mysql_tickets_table}... " />
+            <marker date="1507048443449" expanded="true" signature="3035:3320" ph="INSERT into ${$mysql_tickets_table}... " />
+            <marker date="1507048443449" expanded="true" signature="3262:3320" ph="INSERT into ${$mysql_tickets_table}... " />
+            <marker date="1507048443449" expanded="true" signature="3439:3544" ph="SELECT id fr... ${$mysql_tickets_table}" />
+            <marker date="1507048443449" expanded="true" signature="3781:3840" ph="update ${$my... " />
+            <marker date="1507048443449" expanded="true" signature="4050:4157" ph="INSERT into ${$mysql_time_table}... " />
+            <marker date="1507048443449" expanded="true" signature="5867:5886" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="5867:5973" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="6164:6267" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="6522:6553" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="6634:6765" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="6738:6765" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="6938:6963" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="7197:7289" ph="select id,us... ${$mysql_users_table}" />
+            <marker date="1507048443449" expanded="true" signature="8081:8165" ph="select id,us... ${$mysql_users_table}" />
+            <marker date="1507048443449" expanded="true" signature="8252:8311" ph="select user_... ${$table}" />
+            <marker date="1507048443449" expanded="true" signature="8747:8871" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="8958:9089" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="9181:9346" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="9264:9336" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="9587:9646" ph="select defau... ${$mysql_ugroups_table}" />
+            <marker date="1507048443449" expanded="true" signature="9849:9914" ph="select id, g... ${$mysql_sgroups_table}" />
+            <marker date="1507048443449" expanded="true" signature="10560:10663" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="10560:10672" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="10855:10897" ph="select * fro... ${$mysql_users_table}" />
+            <marker date="1507048443449" expanded="true" signature="11095:11170" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="11189:11523" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="11207:11523" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="11284:11361" ph="..." />
+            <marker date="1507048443449" expanded="true" signature="11448:11523" ph="..." />
           </folding>
         </state>
       </provider>

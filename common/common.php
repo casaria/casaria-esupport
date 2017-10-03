@@ -1947,7 +1947,7 @@ function createDateMenu($flag = 1)
 	echo '<select name=chour>';
     for($i=0; $i<=23; $i++){
         echo "<option value=$i";
-        if($timenow['tm-hour'] == $i)
+        if($timenow['tm_hour'] == $i)
             echo ' selected';
         echo ">".$i."</option>\n";
     }
@@ -1955,12 +1955,12 @@ function createDateMenu($flag = 1)
     echo '<select name=cminute>';
     for($i=0; $i<=59; $i++){
         echo "<option value=$i";
-        if($timenow['tm-min'] == $i)
+        if($timenow['tm_min'] == $i)
             echo ' selected';
         echo ">".$i."</option>\n";
     }
     echo'</select>';
-	echo $timenow["tm-hour"].':'.$timenow["tm-min"];
+	echo $timenow["tm_hour"].':'.$timenow["tm_min"];
 
 
 }

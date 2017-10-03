@@ -37,7 +37,7 @@ $language = getLanguage($cookie_name);
 if($language == '')
 	require_once "../lang/$default_language.lang.php";
 else
-	require_once "../lang/$language.lang.php"
+	require_once "../lang/$language.lang.php";
 	
 
 if(isset($create)){

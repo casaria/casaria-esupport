@@ -1804,14 +1804,14 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 						</tr>		
 						<tr>
 							<td class=back2 width=20% align=right>* '.$lang_platform.':</td>
-							<td width=35% class=back><select name=platform>'; createPlatformMenu(0);
+							<td width=25% class=back><select name=platform>'; createPlatformMenu(0);
 							echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_category.':</td>
 							<td class=back><select name=category>';  createCategoryMenu(0);
 							echo '	</select></td>
 						</tr>
 						<tr>
 							<td width=20% class=back2 align=right>* '.$lang_equipment.':</td>
-							<td class=back width=35%><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
+							<td class=back width=25%><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
 							echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_date.':</td>
 							<td class=back><select name=date>';  createEquipmentMenu(0,$equipmentgroupid);
 							echo '	</select></td>			

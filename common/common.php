@@ -1816,7 +1816,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 							if (isAdministrator($cookie_name)) {
                                 echo '<td class=back2 width=100 align=right>* ' . $lang_createdate . ':</td>
 								<td class=back><select name=date>';
-                                createEquipmentMenu(0, $equipmentgroupid);
+                                createDateMenu();
                                 echo '	</select></td>';
 							}
 
@@ -1909,6 +1909,50 @@ function createUGroupsMenu($flag)
 		}
 	return $ug;
 }
+
+/***********************************************************************************************************
+ **	function createEquipmentMenu():
+ **		Argument : $equipmentgroupid, if 0 all equipment will be listed.
+ **      Creates the drop down menu for the list of Equipment by current facility.
+ ************************************************************************************************************/
+function createDateMenu($flag = 1)
+{
+
+
+    echo '<select name=cmonth>';
+    for($i=1; $i<13; $i++){
+        echo "<option value=$i";
+        if($today['mon'] == $i)
+            echo ' selected';
+        echo ">".$lang_month[$i]."</option>";
+    }
+    echo '</select>
+	<select name=cday> <option></option>';
+    for($i=1; $i<32; $i++){
+        echo "<option value=$i";
+        if($i == $today['mday'])
+            echo ' selected';
+        echo ">".$i."</option>\n";
+    }
+    echo '</select>
+	<select name=cyear>
+	<option></option>';
+    for($i=2001; $i<= $today['year']; $i++){
+        echo "<option value=$i";
+        if($today['year'] == $i)
+            echo ' selected';
+        echo ">".$i."</option>\n";
+    }
+    echo'</select>';
+
+    if($flag == 1)
+        echo "<option></option>\n";
+
+
+}
+
+
+
 /***********************************************************************************************************
 **	function createEquipmentMenu():
 **		Argument : $equipmentgroupid, if 0 all equipment will be listed. 

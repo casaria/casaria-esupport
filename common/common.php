@@ -1918,7 +1918,6 @@ function createUGroupsMenu($flag)
 function createDateMenu($flag = 1)
 {
 
-
     echo '<select name=cmonth>';
     for($i=1; $i<13; $i++){
         echo "<option value=$i";
@@ -1927,7 +1926,7 @@ function createDateMenu($flag = 1)
         echo ">".$lang_month[$i]."</option>";
     }
     echo '</select>
-	<select name=cday> <option></option>';
+	<select name=cday>';
     for($i=1; $i<32; $i++){
         echo "<option value=$i";
         if($i == $today['mday'])
@@ -1935,8 +1934,7 @@ function createDateMenu($flag = 1)
         echo ">".$i."</option>\n";
     }
     echo '</select>
-	<select name=cyear>
-	<option></option>';
+	<select name=cyear>';
     for($i=2001; $i<= $today['year']; $i++){
         echo "<option value=$i";
         if($today['year'] == $i)
@@ -1944,9 +1942,6 @@ function createDateMenu($flag = 1)
         echo ">".$i."</option>\n";
     }
     echo'</select>';
-
-    if($flag == 1)
-        echo "<option></option>\n";
 
 
 }

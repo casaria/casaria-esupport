@@ -5,7 +5,7 @@
       <paths name="casaria.net">
         <serverdata>
           <mappings>
-            <mapping deploy="/home/casaria/public_html/support" local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/public_html/support" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>

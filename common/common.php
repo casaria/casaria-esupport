@@ -1925,7 +1925,7 @@ function createDateMenu($flag = 1)
             echo ' selected';
         echo ">".$lang_month[$i]."</option>";
     }
-    echo '</select>
+    echo '</select> 
 	<select name=cday>';
     for($i=1; $i<32; $i++){
         echo "<option value=$i";
@@ -1933,7 +1933,7 @@ function createDateMenu($flag = 1)
             echo ' selected';
         echo ">".$i."</option>\n";
     }
-    echo '</select>
+    echo '</select> 
 	<select name=cyear>';
     for($i=2001; $i<= $today['year']; $i++){
         echo "<option value=$i";

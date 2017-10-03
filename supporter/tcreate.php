@@ -348,7 +348,7 @@ function createUserInfo()
 				
 				
 				<td width=20% class=back2 align=right>'.$lang_username.':</td>
-				<td class=back width=20%>';
+				<td class=back width=30%>';
 					
 				?>
 			    	<select name=userlink onChange="MM_jumpMenu('parent', this, 0)">
@@ -371,7 +371,7 @@ function createUserInfo()
 				</tr>
 				<tr>
 				<td width=20% class=back2 align=right>".$lang_office.":</td>
-				<td class=back width=20%>
+				<td class=back width=30%>
 					<input type=text size=20% name=office value=\"$row[office]\">
 				</td>
 				<td class=back2 align=right width=100>".$lang_phoneext.":</td>

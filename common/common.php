@@ -1960,6 +1960,7 @@ function createDateMenu($flag = 1)
         echo ">".$i."</option>\n";
     }
     echo'</select>';
+	echo '$timenow';
 
 
 }

@@ -79,14 +79,14 @@ if(isset($create)){
 	$emailstatuschange = ($emailstatuschange == "on") ? "On" : "Off";
   
 	$billing_status = "0";
-    (int)$ctimestamp = mktime($chour, $cminute, 0,$cmonth, $cday, $cyear, -1);
-    echo (int)$ctimestamp;
+    $ctimestamp = mktime($chour, $cminute, 0,$cmonth, $cday, $cyear, -1);
+
 	
-	$sql = "INSERT into $mysql_tickets_table values(NULL, $ctimestamp, $sg, $ugroup_id, '$name',
+	$sql = "INSERT into $mysql_tickets_table values (NULL, $time, $sg, $ugroup_id, '$name',
 	 			 $supporter_id, '$priority', '$status', '$billing_status',	'$username', '$email', '$office', '$phone',
 				 '$equipment', '$category', '$platform', '$short', '$description', NULL, 0, $ctimestamp,
 				 '$emailgroup', '$emailstatuschange', '$emailcc', 0)";
-	
+
 	
 	$db->query($sql);
 

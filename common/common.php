@@ -1812,10 +1812,15 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 						<tr>
 							<td width=20% class=back2 align=right>* '.$lang_equipment.':</td>
 							<td class=back width=25%><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
-							echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_date.':</td>
-							<td class=back><select name=date>';  createEquipmentMenu(0,$equipmentgroupid);
-							echo '	</select></td>			
-																
+							echo '	</select></td>';
+							if (isAdministrator($cookie_name)) {
+                                echo '<td class=back2 width=100 align=right>* ' . $lang_date . ':</td>
+								<td class=back><select name=date>';
+                                createEquipmentMenu(0, $equipmentgroupid);
+                                echo '	</select></td>':
+							}
+
+							echo'									
 						</tr>
 						<tr>
 							<td width=20% class=back2 align=right>* '.$lang_shortdesc.':</td>

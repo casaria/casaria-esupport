@@ -1960,7 +1960,7 @@ function createDateMenu($flag = 1)
         echo ">".$i."</option>\n";
     }
     echo'</select>';
-	echo $timenow["tm_hour"].':'.$timenow["tm_min"];
+	echo ' '.$timenow["tm_hour"].':'.$timenow["tm_min"];
 
 
 }

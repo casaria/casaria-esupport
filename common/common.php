@@ -1918,7 +1918,7 @@ function createDateMenu($flag = 1)
 {
  	global $lang_month;
     $today = getdate();
-    $timenow = localtime();
+    $timenow = localtime(time(),TRUE);
     echo '<select name=cmonth>';
     for($i=1; $i<13; $i++){
         echo "<option value=$i";

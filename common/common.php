@@ -1815,9 +1815,8 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 							echo '	</select></td>';
 							if (isAdministrator($cookie_name)) {
                                 echo '<td class=back2 width=100 align=right>* ' . $lang_createdate . ':</td>
-								<td class=back><select name=date>';
+								<td class=back>';
                                 createDateMenu();
-                                echo '	</select></td>';
 							}
 
 							echo'									

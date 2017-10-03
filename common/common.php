@@ -1793,7 +1793,7 @@ function displayTicket($result)
 ************************************************************************************************************/
 function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 {
-	global $info, $enable_smtp, $cookie_name, $theme, $db, $lang_equipment, $lang_ticketinfo, $lang_platform, $lang_shortdesc, $lang_category, $lang_desc, $lang_email, $lang_user, $lang_update, $lang_attachment, $enable_tattachments;
+	global $info, $enable_smtp, $cookie_name, $theme, $db, $lang_createdate, $lang_equipment, $lang_ticketinfo, $lang_platform, $lang_shortdesc, $lang_category, $lang_desc, $lang_email, $lang_user, $lang_update, $lang_attachment, $enable_tattachments;
 
 		echo '	<table class=border cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
 				<tr> 
@@ -1814,7 +1814,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 							<td class=back width=25%><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
 							echo '	</select></td>';
 							if (isAdministrator($cookie_name)) {
-                                echo '<td class=back2 width=100 align=right>* ' . $lang_date . ':</td>
+                                echo '<td class=back2 width=100 align=right>* ' . $lang_createdate . ':</td>
 								<td class=back><select name=date>';
                                 createEquipmentMenu(0, $equipmentgroupid);
                                 echo '	</select></td>';

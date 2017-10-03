@@ -101,6 +101,7 @@ if(isset($create)){
 	$row = $db->fetch_row($result);
 	$id = $row[0];
 	$lastticketid= $id;
+	echo $id;
 
 
 	//update the log so it shows who created the ticket now.

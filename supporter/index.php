@@ -271,7 +271,7 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
                  }  
 
 
-
+                $showticket = false;
                 echo '</TD>
                 <TD vAlign=top>';
     } else $getstats=true;
@@ -279,7 +279,7 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
                     switch($t){
 
                         case ("tkt-success"):
-                            $showticket - true;
+                            $showticket = true;
                             break;
 						case ("tcre"):
 							require "tcreate.php";

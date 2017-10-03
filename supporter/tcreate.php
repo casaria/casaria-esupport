@@ -81,7 +81,7 @@ if(isset($create)){
 	$billing_status = "0";
 	$timenow = localtime(time(),TRUE);
 
-    if (($cyear <= $timenow['tm_year']) && ($cyear != 0)) {
+    if (($cyear != 0)) {
         $ctimestamp = mktime($chour, $cminute, 0, $cmonth, $cday, $cyear);
     } else {
         $ctimestamp = $timenow;

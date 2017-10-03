@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcreate.php" afterPath="$PROJECT_DIR$/tcreate.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -930,14 +929,7 @@
       <workItem from="1506304782006" duration="3351000" />
       <workItem from="1506369804290" duration="13343000" />
       <workItem from="1506656109696" duration="3698000" />
-      <workItem from="1506894089749" duration="7802000" />
-    </task>
-    <task id="LOCAL-00180" summary="createSupporterInfo() fixed on change and set default status correctly">
-      <created>1502574590337</created>
-      <option name="number" value="00180" />
-      <option name="presentableId" value="LOCAL-00180" />
-      <option name="project" value="LOCAL" />
-      <updated>1502574590337</updated>
+      <workItem from="1506894089749" duration="8380000" />
     </task>
     <task id="LOCAL-00181" summary="createSupporterInfo() fixed on change and set default status correctly">
       <created>1502574668282</created>
@@ -1275,11 +1267,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507032946946</updated>
     </task>
-    <option name="localTasksCounter" value="229" />
+    <task id="LOCAL-00229" summary="Casaria CRM space (cosmetic)">
+      <created>1507033013977</created>
+      <option name="number" value="00229" />
+      <option name="presentableId" value="LOCAL-00229" />
+      <option name="project" value="LOCAL" />
+      <updated>1507033013977</updated>
+    </task>
+    <option name="localTasksCounter" value="230" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="195836000" />
+    <option name="totallyTimeSpent" value="196414000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

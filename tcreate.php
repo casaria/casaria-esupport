@@ -313,10 +313,10 @@ function createUserInfo($groupname)
 				</tr>
 				<tr>
 				<td width=20% class=back2 align=left>* $lang_office:</td>
-				<td class=back width=25%>
+				<td class=back>
 					<input type=text size=16 name=office value=\"$cookie_office\">
 				</td>
-				<td class=back2 align=right width=100>$lang_phoneext:</td>
+				<td class=back2 align=right> $lang_phoneext:</td>
 				<td class=back>
 					<input type=text name=phone value=\"$cookie_phone\">
 				</td>";

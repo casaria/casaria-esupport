@@ -37,8 +37,7 @@ $language = getLanguage($cookie_name);
 if($language == '')
 	require_once "../lang/$default_language.lang.php";
 else
-	require_once "../lang/$language.lang.php";
-
+	require_once "../lang/$language.lang.php"
 	
 
 if(isset($create)){
@@ -101,6 +100,7 @@ if(isset($create)){
     $result = $db->query($sql);
 	$row = $db->fetch_row($result);
 	$id = $row[0];
+	$lastticketid= $id;
 
 
 	//update the log so it shows who created the ticket now.
@@ -127,7 +127,7 @@ if(isset($create)){
 		$template_name = 'email_group_page';
 		sendGroupPage($template_name, $sg, $username, $short, $priority, $id);
 	}
-	header("Location: $supporter_site_url/index.php");
+	header("Location: $supporter_site_url/index.php?t=tkt-success");
 }
 
 else{

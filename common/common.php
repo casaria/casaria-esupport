@@ -44,6 +44,7 @@ $var = getCRMVariables();
 $crm_name = $var['name'];
 //+++
 $logfile = "logfile.txt";
+$lasticketid = 0;
 
 /****************************	Other Variables	***********************************************************/
 //set the variables from the database if not running the install

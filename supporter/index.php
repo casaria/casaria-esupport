@@ -275,9 +275,12 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
                 echo '</TD>
                 <TD vAlign=top>';
     } else $getstats=true;
-?>
-<?php
-					switch($t){
+
+                    switch($t){
+
+                        case ("tkt-success"):
+                            $showticket - true;
+                            break;
 						case ("tcre"):
 							require "tcreate.php";
 							break;
@@ -367,9 +370,9 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
             </TABLE>
             <BR>
           </TD>
-        </TR>
+        </TR
 		<?php
-		
+		if ($showticket)  echo "Ticket susccesfully created:  TKT# $lasticketid <BR>";
 		if($enable_whosonline == 'On'){
 			echo "<TR>
 				<TD class=cat>";

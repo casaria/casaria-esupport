@@ -1813,7 +1813,11 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 							<td width=20% class=back2 align=right>* '.$lang_equipment.':</td>
 							<td class=back colspan=3><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
 							echo '	</select></td>
-						
+							
+							<td width=20% class=back2 align=right>* \'.$lang_equipment.\':</td>
+							<td class=back colspan=3><select name=equipment>\';  createEquipmentMenu(0,$equipmentgroupid);
+							echo \'	</select></td>			
+																
 						</tr>
 						<tr>
 							<td width=20% class=back2 align=right>* '.$lang_shortdesc.':</td>

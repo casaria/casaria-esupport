@@ -288,7 +288,7 @@ function createUserInfo($groupname)
 	
 
 	if($groupname =='') $groupname = "No Group ERROR";
-	startTable("$lang_userinfo  ($groupname)", "left", 100, 4);	
+	startTable("$lang_userinfo  ($groupname)", "center", 100, 4);
 		if($pubpriv == "Private"){
 			echo "<tr>
 				<td width=20% class=back2 align=right>* $lang_username:</td>

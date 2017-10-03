@@ -2221,7 +2221,7 @@ function startTable($msg, $align, $width=100, $colspan=1, $class=info)
 	if($width == '')
 		$width = '100';
 
-	echo '<TABLE class=border cellSpacing=0 cellPadding=0 width="'.$width.'%" align=center border=0>
+	echo '<TABLE class=border cellSpacing=0 cellPadding=0 width="'.$width.'%" align=$align border=0>
 			<TR> 
 			<TD> 
 				<TABLE cellSpacing=1 cellPadding=5 width="100%" border=0>
@@ -2231,6 +2231,8 @@ function startTable($msg, $align, $width=100, $colspan=1, $class=info)
 						echo '</B></td>
 						</TR>	';	
 }
+
+
 
 /***********************************************************************************************************
 **	function endTable():

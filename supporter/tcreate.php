@@ -182,7 +182,6 @@ function createSupporterInfo()
 				<?php
 				
 				$sg=createSupportGroupMenu($ug);
-1``
 		echo '</select>
 				</td>
 				<td class=back2 align=right width=100>'.$lang_supporter.': </td>

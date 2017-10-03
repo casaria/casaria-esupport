@@ -423,8 +423,8 @@
       <file leaf-file-name="tcreate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supporter/tcreate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+            <state relative-caret-position="224">
+              <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
               <folding>
                 <marker date="1507045005462" expanded="true" signature="2874:3216" ph="INSERT into ${$mysql_tickets_table}... " />
                 <marker date="1507045005462" expanded="true" signature="3339:3471" ph="SELECT id fr... ${$mysql_tickets_table}" />
@@ -810,14 +810,7 @@
       <workItem from="1506304782006" duration="3351000" />
       <workItem from="1506369804290" duration="13343000" />
       <workItem from="1506656109696" duration="3698000" />
-      <workItem from="1506894089749" duration="19784000" />
-    </task>
-    <task id="LOCAL-00220" summary="Casaria CRM space (cosmetic)">
-      <created>1506977951993</created>
-      <option name="number" value="00220" />
-      <option name="presentableId" value="LOCAL-00220" />
-      <option name="project" value="LOCAL" />
-      <updated>1506977951994</updated>
+      <workItem from="1506894089749" duration="20642000" />
     </task>
     <task id="LOCAL-00221" summary="Casaria CRM space (cosmetic)">
       <created>1507031676224</created>
@@ -1155,11 +1148,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507044532076</updated>
     </task>
-    <option name="localTasksCounter" value="269" />
+    <task id="LOCAL-00269" summary="localtime create time">
+      <created>1507045011925</created>
+      <option name="number" value="00269" />
+      <option name="presentableId" value="LOCAL-00269" />
+      <option name="project" value="LOCAL" />
+      <updated>1507045011925</updated>
+    </task>
+    <option name="localTasksCounter" value="270" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="207818000" />
+    <option name="totallyTimeSpent" value="208676000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2167,8 +2167,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/supporter/tcreate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="87" column="5" lean-forward="true" selection-start-line="87" selection-start-column="5" selection-end-line="87" selection-end-column="5" />
+        <state relative-caret-position="224">
+          <caret line="84" column="26" lean-forward="false" selection-start-line="84" selection-start-column="26" selection-end-line="84" selection-end-column="26" />
           <folding>
             <marker date="1507045005462" expanded="true" signature="2874:3216" ph="INSERT into ${$mysql_tickets_table}... " />
             <marker date="1507045005462" expanded="true" signature="3339:3471" ph="SELECT id fr... ${$mysql_tickets_table}" />

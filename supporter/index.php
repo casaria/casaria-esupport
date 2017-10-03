@@ -361,6 +361,12 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
 							require "announce.php";
 							break;
 					}
+                                $sql = "SELECT id FROM $mysql_tickets_table ORDER BY ID DESC LIMIT 1";
+                                $result = $db->query($sql);
+                                $row = $db->fetch_row($result);
+                                $id = $row[0];
+                                $lastticketid=$id;
+
                     if ($showticket)  echo "Ticket susccesfully created:  TKT# $lasticketid <BR>";
                     echo "tits";
 						  

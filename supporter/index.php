@@ -361,7 +361,8 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
 							require "announce.php";
 							break;
 					}
-		  
+                    if ($showticket)  echo "Ticket susccesfully created:  TKT# $lasticketid <BR>";
+                    echo "tits";
 						  
 					?>
 				
@@ -372,7 +373,7 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
           </TD>
         </TR
 		<?php
-		if ($showticket)  echo "Ticket susccesfully created:  TKT# $lasticketid <BR>";
+
 		if($enable_whosonline == 'On'){
 			echo "<TR>
 				<TD class=cat>";

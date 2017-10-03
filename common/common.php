@@ -1950,7 +1950,7 @@ function createDateMenu($flag = 1)
             echo ' selected';
         echo ">".$i."</option>\n";
     }
-    echo'</select>';
+    echo'</select> : ';
     echo '<select name=cminute>';
     for($i=0; $i<=59; $i++){
         echo "<option value=$i";

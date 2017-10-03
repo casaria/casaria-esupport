@@ -1916,6 +1916,7 @@ function createUGroupsMenu($flag)
  ************************************************************************************************************/
 function createDateMenu($flag = 1)
 {
+ 	global $lang_month;
     $today = getdate();
     echo '<select name=cmonth>';
     for($i=1; $i<13; $i++){

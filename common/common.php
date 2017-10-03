@@ -1935,9 +1935,26 @@ function createDateMenu($flag = 1)
     }
     echo '</select>'.'-'.'
 	<select name=cyear>';
-    for($i=2001; $i<= $today['year']; $i++){
+    for($i=($today['year']-2); $i<= $today['year']; $i++){
         echo "<option value=$i";
         if($today['year'] == $i)
+            echo ' selected';
+        echo ">".$i."</option>\n";
+    }
+    echo'</select>';
+
+	echo '<select name=chour>';
+    for($i=0; $i<=23; $i++){
+        echo "<option value=$i";
+        if($today['hour'] == $i)
+            echo ' selected';
+        echo ">".$i."</option>\n";
+    }
+    echo'</select>';
+    echo '<select name=cminute>';
+    for($i=0; $i<=59; $i++){
+        echo "<option value=$i";
+        if($today['minute'] == $i)
             echo ' selected';
         echo ">".$i."</option>\n";
     }

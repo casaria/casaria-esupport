@@ -1918,7 +1918,7 @@ function createDateMenu($flag = 1)
 {
  	global $lang_month;
     $today = getdate();
-    $timenow = gettimeofday();
+    $timenow = localtime();
     echo '<select name=cmonth>';
     for($i=1; $i<13; $i++){
         echo "<option value=$i";
@@ -1947,7 +1947,7 @@ function createDateMenu($flag = 1)
 	echo '<select name=chour>';
     for($i=0; $i<=23; $i++){
         echo "<option value=$i";
-        if($timenow['hour'] == $i)
+        if($timenow['tm-hour'] == $i)
             echo ' selected';
         echo ">".$i."</option>\n";
     }
@@ -1955,7 +1955,7 @@ function createDateMenu($flag = 1)
     echo '<select name=cminute>';
     for($i=0; $i<=59; $i++){
         echo "<option value=$i";
-        if($timenow['minute'] == $i)
+        if($timenow['tm-min'] == $i)
             echo ' selected';
         echo ">".$i."</option>\n";
     }

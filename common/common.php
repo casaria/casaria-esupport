@@ -1942,7 +1942,7 @@ function createDateMenu($flag = 1)
         echo ">".$i."</option>\n";
     }
     echo'</select>';
-
+	echo' @  Time: ';
 	echo '<select name=chour>';
     for($i=0; $i<=23; $i++){
         echo "<option value=$i";

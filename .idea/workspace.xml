@@ -9,9 +9,7 @@
     <bookmark url="file://$PROJECT_DIR$/common/common.php" line="1595" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="Casaria CRM space (cosmetic)">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/deployment.xml" afterPath="$PROJECT_DIR$/.idea/deployment.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/webServers.xml" afterPath="$PROJECT_DIR$/.idea/webServers.xml" />
+    <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tcreate.php" afterPath="$PROJECT_DIR$/tcreate.php" />
     </list>
@@ -308,11 +306,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tcreate.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="tcreate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/tcreate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="880">
-              <caret line="291" column="35" lean-forward="false" selection-start-line="291" selection-start-column="35" selection-end-line="291" selection-end-column="35" />
+            <state relative-caret-position="205">
+              <caret line="262" column="21" lean-forward="false" selection-start-line="262" selection-start-column="21" selection-end-line="262" selection-end-column="21" />
               <folding>
                 <marker date="1507037146760" expanded="true" signature="3167:3479" ph="INSERT into ${$mysql_tickets_table}... " />
                 <marker date="1507037146760" expanded="true" signature="3776:3835" ph="update ${$my... " />
@@ -334,42 +332,6 @@
                 <marker date="1507037146760" expanded="true" signature="9496:9798" ph="..." />
                 <marker date="1507037146760" expanded="true" signature="9578:9656" ph="..." />
                 <marker date="1507037146760" expanded="true" signature="9730:9798" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="tcreate.php" pinned="true" current-in-tab="true">
-        <entry file="remoteDeploymentFS://&lt;8480c2f5-8507-4803-ada1-4a1a2ce8cc64&gt;/public_html/support/supporter/tcreate.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="274">
-              <caret line="376" column="21" lean-forward="true" selection-start-line="376" selection-start-column="21" selection-end-line="376" selection-end-column="21" />
-              <folding>
-                <marker date="0" expanded="true" signature="2685:3015" ph="INSERT into ${$mysql_tickets_table}... " />
-                <marker date="0" expanded="true" signature="3138:3270" ph="SELECT id fr... ${$mysql_tickets_table}" />
-                <marker date="0" expanded="true" signature="3507:3566" ph="update ${$my... " />
-                <marker date="0" expanded="true" signature="3776:3883" ph="INSERT into ${$mysql_time_table}... " />
-                <marker date="0" expanded="true" signature="5593:5699" ph="..." />
-                <marker date="0" expanded="true" signature="5890:5993" ph="..." />
-                <marker date="0" expanded="true" signature="6249:6280" ph="..." />
-                <marker date="0" expanded="true" signature="6361:6492" ph="..." />
-                <marker date="0" expanded="true" signature="6465:6492" ph="..." />
-                <marker date="0" expanded="true" signature="6665:6690" ph="..." />
-                <marker date="0" expanded="true" signature="6924:7016" ph="select id,us... ${$mysql_users_table}" />
-                <marker date="0" expanded="true" signature="7808:7892" ph="select id,us... ${$mysql_users_table}" />
-                <marker date="0" expanded="true" signature="7979:8038" ph="select user_... ${$table}" />
-                <marker date="0" expanded="true" signature="8474:8598" ph="..." />
-                <marker date="0" expanded="true" signature="8685:8816" ph="..." />
-                <marker date="0" expanded="true" signature="8908:9073" ph="..." />
-                <marker date="0" expanded="true" signature="8991:9063" ph="..." />
-                <marker date="0" expanded="true" signature="9314:9373" ph="select defau... ${$mysql_ugroups_table}" />
-                <marker date="0" expanded="true" signature="9576:9641" ph="select id, g... ${$mysql_sgroups_table}" />
-                <marker date="0" expanded="true" signature="10287:10390" ph="..." />
-                <marker date="0" expanded="true" signature="10573:10615" ph="select * fro... ${$mysql_users_table}" />
-                <marker date="0" expanded="true" signature="10813:10888" ph="..." />
-                <marker date="0" expanded="true" signature="10907:11231" ph="..." />
-                <marker date="0" expanded="true" signature="10992:11069" ph="..." />
-                <marker date="0" expanded="true" signature="11156:11231" ph="..." />
               </folding>
             </state>
           </provider>
@@ -677,8 +639,8 @@
       <find>status</find>
       <find>$sqlBS</find>
       <find>SUBCAT</find>
-      <find>$mysql_BillingStatus_table</find>
       <find>%%</find>
+      <find>$mysql_BillingStatus_table</find>
     </findStrings>
     <replaceStrings>
       <replace>$summary = displayTicket($result);</replace>
@@ -735,8 +697,8 @@
         <option value="$PROJECT_DIR$/common/style.php" />
         <option value="$PROJECT_DIR$/supporter/index.php" />
         <option value="$PROJECT_DIR$/common/common.php" />
-        <option value="$PROJECT_DIR$/tcreate.php" />
         <option value="&lt;8480c2f5-8507-4803-ada1-4a1a2ce8cc64&gt;/public_html/support/supporter/tcreate.php" />
+        <option value="$PROJECT_DIR$/tcreate.php" />
       </list>
     </option>
   </component>
@@ -919,14 +881,7 @@
       <workItem from="1506304782006" duration="3351000" />
       <workItem from="1506369804290" duration="13343000" />
       <workItem from="1506656109696" duration="3698000" />
-      <workItem from="1506894089749" duration="12617000" />
-    </task>
-    <task id="LOCAL-00186" summary="$lang_ticket`">
-      <created>1502590765059</created>
-      <option name="number" value="00186" />
-      <option name="presentableId" value="LOCAL-00186" />
-      <option name="project" value="LOCAL" />
-      <updated>1502590765059</updated>
+      <workItem from="1506894089749" duration="12715000" />
     </task>
     <task id="LOCAL-00187" summary="set_cookie">
       <created>1502704463393</created>
@@ -1264,11 +1219,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507036101012</updated>
     </task>
-    <option name="localTasksCounter" value="235" />
+    <task id="LOCAL-00235" summary="Casaria CRM space (cosmetic)">
+      <created>1507037838245</created>
+      <option name="number" value="00235" />
+      <option name="presentableId" value="LOCAL-00235" />
+      <option name="project" value="LOCAL" />
+      <updated>1507037838246</updated>
+    </task>
+    <option name="localTasksCounter" value="236" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="200651000" />
+    <option name="totallyTimeSpent" value="200749000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2274,8 +2236,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tcreate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="880">
-          <caret line="291" column="35" lean-forward="false" selection-start-line="291" selection-start-column="35" selection-end-line="291" selection-end-column="35" />
+        <state relative-caret-position="205">
+          <caret line="262" column="21" lean-forward="false" selection-start-line="262" selection-start-column="21" selection-end-line="262" selection-end-column="21" />
           <folding>
             <marker date="1507037146760" expanded="true" signature="3167:3479" ph="INSERT into ${$mysql_tickets_table}... " />
             <marker date="1507037146760" expanded="true" signature="3776:3835" ph="update ${$my... " />

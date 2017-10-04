@@ -128,7 +128,7 @@ if(isset($create)){
 		$template_name = 'email_group_page';
 		sendGroupPage($template_name, $sg, $username, $short, $priority, $id);
 	}
-	header("Location: $supporter_site_url/index.php?t=tkt-success");
+	header("Location: $supporter_site_url/index.phpt");
 }
 
 else{

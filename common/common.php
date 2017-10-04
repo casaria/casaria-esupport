@@ -49,7 +49,7 @@ $logfile = "logfile.txt";
 /****************************	Other Variables	***********************************************************/
 //set the variables from the database if not running the install
 $var = getVariables();
-require_once "\common\style.php";
+require_once "/common/style.php";
 
 $announcements_limit = $var['announcements_per'];		//number of announcements to display on the main page.
 $users_limit = $var['users_per'];				//number of users to list in a user/supporter list

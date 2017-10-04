@@ -359,7 +359,7 @@ function checkUser($name, $pwd)
 	
 	if($row[user] == 0 && $name != ''){
         require_once $includePath."style.php";
-		printerror("Your account is not active.");
+		printerror("Your account is not active. Please contact your supervisor.");
 		exit;
 	}
 

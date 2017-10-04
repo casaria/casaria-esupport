@@ -37,8 +37,7 @@ $language = getLanguage($cookie_name);
 if($language == '')
 	require_once "../lang/$default_language.lang.php";
 else
-	require_once "../lang/$language.lang.php";
-
+	require_once "../lang/$language.lang.php"
 	
 
 if(isset($create)){
@@ -79,28 +78,29 @@ if(isset($create)){
 	$emailstatuschange = ($emailstatuschange == "on") ? "On" : "Off";
   
 	$billing_status = "0";
-	$timenow = localtime(time(),TRUE);
+    $ctimestamp = mktime($chour, $cminute, 0,$cmonth, $cday, $cyear, -1);
 
-    if (($cyear <= $timenow['tm_year']) && ($cyear != 0)) {
-        $ctimestamp = mktime($chour, $cminute, 0, $cmonth, $cday, $cyear);
+    if ($cyyear <= $timenow['tm_year'] ) {
+        $ctimestamp = mktime($chour, $cminute, 0, $cmonth, $cday, $cyear, -1);
     } else {
-        $ctimestamp = $timenow;
+        $ctimestamp = $time;
     }
 
-	
-	$sql = "INSERT into $mysql_tickets_table values(NULL, $ctimestamp, $sg, $ugroup_id, '$name',
+
+	$sql = "INSERT into $mysql_tickets_table values (NULL, $ctimestamp, $sg, $ugroup_id, '$name',
 	 			 $supporter_id, '$priority', '$status', '$billing_status',	'$username', '$email', '$office', '$phone',
 				 '$equipment', '$category', '$platform', '$short', '$description', NULL, 0, $ctimestamp,
 				 '$emailgroup', '$emailstatuschange', '$emailcc', 0)";
-	
-	
 	$db->query($sql);
 
 	//grab the id number of the ticket so we can create the created by in the update log.
-	$sql = "SELECT id from $mysql_tickets_table where create_date='$time' and user='$username' and short='$short' and description='$description'";
-	$result = $db->query($sql);
+    //SELECT * FROM Table ORDER BY ID DESC LIMIT 1
+	//$sql = "SELECT id from $mysql_tickets_table where create_date=$ctimestamp and user='$username' and short='$short'";
+    $sql = "SELECT id FROM $mysql_tickets_table ORDER BY ID DESC LIMIT 1";
+    $result = $db->query($sql);
 	$row = $db->fetch_row($result);
 	$id = $row[0];
+	$lastticketid= $id;
 
 
 	//update the log so it shows who created the ticket now.
@@ -127,7 +127,7 @@ if(isset($create)){
 		$template_name = 'email_group_page';
 		sendGroupPage($template_name, $sg, $username, $short, $priority, $id);
 	}
-	header("Location: $supporter_site_url/index.php");
+	header("Location: $supporter_site_url/index.php?t=tkt-success");
 }
 
 else{

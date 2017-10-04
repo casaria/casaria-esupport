@@ -96,7 +96,7 @@ if(isset($create)){
 	//grab the id number of the ticket so we can create the created by in the update log.
     //SELECT * FROM Table ORDER BY ID DESC LIMIT 1
 	//$sql = "SELECT id from $mysql_tickets_table where create_date=$ctimestamp and user='$username' and short='$short'";
-    $sql = "SELECT id FROM $mysql_tickets_table ORDER BY ID DESC LIMIT 1";
+    $sql = "SELECT 'id' FROM $mysql_tickets_table ORDER BY 'id' DESC LIMIT 1";
     $result = $db->query($sql);
 	$row = $db->fetch_row($result);
 	$id = $row[0];

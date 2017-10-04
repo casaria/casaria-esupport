@@ -40,7 +40,8 @@ $db_user = 'casaria_hdesk1';
 $db_pwd = '5XwoR]B';
 $db_name = 'casaria_hdesk1';
 $uploaddir = '/home/casaria/public_html/support/uploads/';
-$session_time = 7200;
+$session_time = 72000;
+$includePath = '/home/casaria/public_html/support/common/';
 $session_name = 'CasariaIncSupport';
 $MailQueuePath = "/home/casaria/public_html/support/DelayedMail/";
 

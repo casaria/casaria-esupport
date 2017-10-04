@@ -36,6 +36,7 @@ $pconnect = 0;
 $db = new $database();
 $db->connect($db_host, $db_user, $db_pwd, $db_name, $pconnect);
 
+
 /**********************************************************************************************************/
 /****************************	Other Variables	***********************************************************/
 //set the variables from the database if not running the install
@@ -44,11 +45,11 @@ $var = getCRMVariables();
 $crm_name = $var['name'];
 //+++
 $logfile = "logfile.txt";
-$lasticketid = 0;
 
 /****************************	Other Variables	***********************************************************/
 //set the variables from the database if not running the install
 $var = getVariables();
+require_once "style.php";
 
 $announcements_limit = $var['announcements_per'];		//number of announcements to display on the main page.
 $users_limit = $var['users_per'];				//number of users to list in a user/supporter list
@@ -357,7 +358,6 @@ function checkUser($name, $pwd)
 	}
 	
 	if($row[user] == 0 && $name != ''){
-		require_once "../common/style.php";
 		printerror("Your account is not active.");
 		exit;
 	}

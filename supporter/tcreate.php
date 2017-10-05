@@ -200,7 +200,7 @@ function createSupporterInfo()
 				</td>
 				</tr>
 				<tr>
-				<td width=20% class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
+				<td width=100 class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
 				<td class=back>
 				<select name=priority>';
 				
@@ -355,7 +355,7 @@ function createUserInfo()
 				
 				
 				
-				<td width=20% class=back2 align=right>'.$lang_username.':</td>
+				<td width=100 class=back2 align=right>'.$lang_username.':</td>
 				<td class=back width=25%>';
 					
 				?>
@@ -378,13 +378,13 @@ function createUserInfo()
 				</td>
 				</tr>
 				<tr>
-				<td width=20% class=back2 align=right>".$lang_office.":</td>
-				<td class=back width=25%>
-					<input type=text size=20% name=office value=\"$row[office]\">
+				<td width=100 class=back2 align=right>".$lang_office.":</td>
+				<td class=back width=190>
+					<input type=text size=100 name=office value=\"$row[office]\">
 				</td>
 				<td class=back2 align=right width=100>".$lang_phoneext.":</td>
 				<td class=back>
-					<input type=text size=20% name=phone value=\"$row[phone]\">
+					<input type=text size=190 name=phone value=\"$row[phone]\">
 				</td>";
 
 	endTable();

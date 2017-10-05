@@ -298,7 +298,7 @@ function createUserInfo($groupname)
 		}
 		else{
 			echo "<tr>
-				<td width=20% class=back2 align=right>* $lang_username:</td>
+				<td width=20% class=back2 align=left>* $lang_username:</td>
 				<td width=20% class=back align=left>
 					<input type=text size=16 name=username value=\"$cookie_user_name\">
 				</td>";

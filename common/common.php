@@ -1795,9 +1795,9 @@ function displayTicket($result)
 ************************************************************************************************************/
 function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 {
-	global $info, $enable_smtp, $cookie_name, $theme, $db, $lang_createdate, $lang_equipment, $lang_ticketinfo, $lang_platform, $lang_shortdesc, $lang_category, $lang_desc, $lang_email, $lang_user, $lang_update, $lang_attachment, $enable_tattachments;
+    global $info, $enable_smtp, $cookie_name, $theme, $db, $lang_createdate, $lang_equipment, $lang_ticketinfo, $lang_platform, $lang_shortdesc, $lang_category, $lang_desc, $lang_email, $lang_user, $lang_update, $lang_attachment, $enable_tattachments;
 
-		echo '	<table class=border cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
+    echo '	<table class=border cellSpacing=0 cellPadding=0 width="100%" align=center border=0>
 				<tr> 
 				<td> 
 					<table cellSpacing=1 cellPadding=5 width="100%" border=0>
@@ -1807,25 +1807,24 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 						<tr>
 							<td class=back2 width=100 align=right>* '.$lang_platform.':</td>
 							<td width=190 class=back><select name=platform>'; createPlatformMenu(0);
-							echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_category.':</td>
+    echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_category.':</td>
 							<td class=back width=190><select name=category>';  createCategoryMenu(0);
-							echo '	</select></td>
+    echo '	</select></td>
 						</tr>
 						<tr>
 							<td width=100 class=back2 align=right>* '.$lang_equipment.':</td>
 							<td class=back width=190><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
-							echo '	</select></td>';
-							if (isAdministrator($cookie_name)) {
-                                echo '<td class=back2 width=100 align=right>'.'*'.$lang_createdate.':';
-                                echo '</td><td class=back>';
-                                createDateMenu();
-                                echo '</td>';
-							} else {
-                                echo '<td class=back2 width=100 align=right></td>';
-                                echo '<td class=back></td>';
-                            }
-}
-								echo'								
+    echo '	</select></td>';
+    if (isAdministrator($cookie_name)) {
+        echo '<td class=back2 width=100 align=right>'.'*'.$lang_createdate.':';
+        echo '</td><td class=back>';
+        createDateMenu();
+        echo '</td>';
+    } else {
+        echo '<td class=back2 width=100 align=right></td>';
+        echo '<td class=back></td>';
+    }
+	echo'								
 						</tr>
 						<tr>
 							<td width=20% class=back2 align=right>* '.$lang_shortdesc.':</td>
@@ -1842,18 +1841,18 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 
 
 						</tr>';
-if(isset($info)){
-	
-	if($enable_smtp == "win" || $enable_smtp == "lin"){
-		echo '
+	if(isset($info)){
+
+    if($enable_smtp == "win" || $enable_smtp == "lin"){
+        echo '
 
 			<tr>
-				<td class=back2 align=right valign=top width=20%> '.$lang_email.' '. $lang_user.': </td>
-				<td class=back colspan=3 valign=bottom> <textarea name=email_msg rows=5 cols=60></textarea> </td>
+				<td class=back2 align=right valign=top width=20%> '.$lang_email.' '. $lang_user.'</td>
+				<td class=back colspan=3 valign=bottom> <textarea name=email_msg rows=5 cols=60></textarea></td>
 			</tr>';
-	}
-	echo '
-		<tr>
+    }
+    echo '
+			<tr>
 
 			<td class=back2 align=right valign=top width=20%> '.$lang_update.': </td>
 			<td class=back colspan=3 valign=bottom> <textarea name=update_log rows=5 cols=60></textarea>
@@ -1863,20 +1862,20 @@ if(isset($info)){
 					<img border=0 src="../'.$theme['image_dir'].'log_button.jpg"></a>
 
 			</td>
-		</tr>';
-}
-		if($enable_tattachments == 'On' && $flag == 'allow'){
-			echo '<tr>
+			</tr>';
+
+    if($enable_tattachments == 'On' && $flag == 'allow'){
+        echo '<tr>
 				<td class=back2 align=right valign=top width=20%>'.$lang_attachment.': </td>';
 
-			echo "<td class=back colspan=3 valign=bottom>";
-			//echo "<input type=hidden name=\"MAX_FILE_SIZE\" value=\"1000000\">";
-			echo "<input type=\"file\" name=\"the_file\" size=60>";
+        echo "<td class=back colspan=3 valign=bottom>";
+        //echo "<input type=hidden name=\"MAX_FILE_SIZE\" value=\"1000000\">";
+        echo "<input type=\"file\" name=\"the_file\" size=60>";
 
-			echo '</td></tr>';
-		}
+        echo '</td></tr>';
+    }
 
-echo '
+    echo '
 					</table>
 				</td>
 				</tr>
@@ -1884,8 +1883,7 @@ echo '
 		<br>';
 
 }
-?>
-<?php
+
 /***********************************************************************************************************
 **	function createUGroupsMenu():
 **		Takes no arguments.  Creates the drop down menu 

@@ -174,7 +174,7 @@ function createSupporterInfo()
 	startTable("$lang_supporterinfo", "left", 100, 4);
 		echo '<tr>
 				<td width=100 class=back2 align=right>* '.$lang_group.':</td>
-				<td class=back width=190 colspan=3>';
+				<td class=back  colspan=3>';
 				?>
 			    	<select name=usergroup_name onChange="MM_jumpMenu('parent', this, 0)">
 				<?php					

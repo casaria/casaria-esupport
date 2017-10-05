@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/supporter/tcreate.php" afterPath="$PROJECT_DIR$/supporter/tcreate.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -418,8 +417,8 @@
       <file leaf-file-name="tcreate.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/supporter/tcreate.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="185" column="29" lean-forward="false" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+            <state relative-caret-position="602">
+              <caret line="343" column="9" lean-forward="false" selection-start-line="343" selection-start-column="9" selection-end-line="343" selection-end-column="9" />
               <folding>
                 <marker date="1507189931251" expanded="true" signature="2929:3272" ph="INSERT into ${$mysql_tickets_table}... " />
                 <marker date="1507189931251" expanded="true" signature="3564:3628" ph="SELECT id FR... ${$mysql_tickets_table}" />
@@ -792,14 +791,7 @@
       <workItem from="1506369804290" duration="13343000" />
       <workItem from="1506656109696" duration="3698000" />
       <workItem from="1506894089749" duration="41367000" />
-      <workItem from="1507178766264" duration="6252000" />
-    </task>
-    <task id="LOCAL-00277" summary="localtime create time">
-      <created>1507047579657</created>
-      <option name="number" value="00277" />
-      <option name="presentableId" value="LOCAL-00277" />
-      <option name="project" value="LOCAL" />
-      <updated>1507047579657</updated>
+      <workItem from="1507178766264" duration="6955000" />
     </task>
     <task id="LOCAL-00278" summary="localtime create time">
       <created>1507047793596</created>
@@ -1137,11 +1129,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507189494071</updated>
     </task>
-    <option name="localTasksCounter" value="326" />
+    <task id="LOCAL-00326" summary="&#10;cleanup creat ticket ui">
+      <created>1507189935371</created>
+      <option name="number" value="00326" />
+      <option name="presentableId" value="LOCAL-00326" />
+      <option name="project" value="LOCAL" />
+      <updated>1507189935371</updated>
+    </task>
+    <option name="localTasksCounter" value="327" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="235653000" />
+    <option name="totallyTimeSpent" value="236356000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -2164,8 +2163,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/supporter/tcreate.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="185" column="29" lean-forward="false" selection-start-line="185" selection-start-column="29" selection-end-line="185" selection-end-column="29" />
+        <state relative-caret-position="602">
+          <caret line="343" column="9" lean-forward="false" selection-start-line="343" selection-start-column="9" selection-end-line="343" selection-end-column="9" />
           <folding>
             <marker date="1507189931251" expanded="true" signature="2929:3272" ph="INSERT into ${$mysql_tickets_table}... " />
             <marker date="1507189931251" expanded="true" signature="3564:3628" ph="SELECT id FR... ${$mysql_tickets_table}" />

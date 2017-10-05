@@ -174,7 +174,7 @@ function createSupporterInfo()
 	startTable("$lang_supporterinfo", "left", 100, 4);
 		echo '<tr>
 				<td width=100 class=back2 align=right>* '.$lang_group.':</td>
-				<td class=back colspan=3 width=25%>';
+				<td class=back colspan=3 width=190';
 				?>
 			    	<select name=usergroup_name onChange="MM_jumpMenu('parent', this, 0)">
 				<?php					
@@ -184,7 +184,7 @@ function createSupporterInfo()
 		
 				<tr>
 				<td width=100 class=back2 align=right>'.$lang_supportergroup.':</td>
-				<td class=back width=25%>';
+				<td class=back  width=190>';
 				?>
 				<select name=group onChange="MM_jumpMenu('parent', this, 0)">
 				<?php
@@ -193,7 +193,7 @@ function createSupporterInfo()
 		echo '</select>
 				</td>
 				<td class=back2 align=right width=100>'.$lang_supporter.': </td>
-				<td class=back align=left>
+				<td class=back align=left  width=190>
 				<select name=supporter_id>';
 				createSupporterMenu($sg);
 				echo '</select>
@@ -201,7 +201,7 @@ function createSupporterInfo()
 				</tr>
 				<tr>
 				<td width=100 class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
-				<td class=back>
+				<td class=back width=190>
 				<select name=priority>';
 				
 				createPriorityMenu();  
@@ -209,7 +209,7 @@ function createSupporterInfo()
 		echo '</select>
 				</td>
 				<td class=back2 align=right width=100>'.$lang_ticket.' '.$lang_status.':</td>
-				<td class=back>
+				<td class=back width=190>
 				<select name=status>';
 				
 				createStatusMenu(1,1);
@@ -327,6 +327,7 @@ function createSupportGroupMenu($ugroup=1)
 	$result = $db->query($sql);
 	$num_rows = $db->num_rows($result);
 
+
 		while($row = $db->fetch_array($result)){
 			if($num_rows == 1 || $row[id] != 1){
 				echo "<option value=\"index.php?t=tcre&ug=$ug&userid=$userid&sg=$row[id]\"";
@@ -340,7 +341,7 @@ function createSupportGroupMenu($ugroup=1)
 	return $sg;
 }
 
-function    createUserInfo()
+function createUserInfo()
 {
 	global $db, $mysql_users_table, $lang_createdby, $lang_username,$Ug, $userid, $lang_email, $lang_office, $lang_phoneext;
  	

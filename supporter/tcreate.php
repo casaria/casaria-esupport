@@ -173,8 +173,8 @@ function createSupporterInfo()
 
 	startTable("$lang_supporterinfo", "left", 100, 4);
 		echo '<tr>
-				<td width=20% class=back2 align=right>* '.$lang_group.':</td>
-				<td class=back colspan=3 width=25%>';
+				<td width=100 class=back2 align=right>* '.$lang_group.':</td>
+				<td class=back width=190>';
 				?>
 			    	<select name=usergroup_name onChange="MM_jumpMenu('parent', this, 0)">
 				<?php					
@@ -183,8 +183,8 @@ function createSupporterInfo()
 				</td></tr>					
 		
 				<tr>
-				<td width=20% class=back2 align=right>'.$lang_supportergroup.':</td>
-				<td class=back width=25%>';
+				<td width=100 class=back2 align=right>'.$lang_supportergroup.':</td>
+				<td class=back width=190>';
 				?>
 				<select name=group onChange="MM_jumpMenu('parent', this, 0)">
 				<?php
@@ -193,7 +193,7 @@ function createSupporterInfo()
 		echo '</select>
 				</td>
 				<td class=back2 align=right width=100>'.$lang_supporter.': </td>
-				<td class=back align=left>
+				<td class=back align=lef width=190>
 				<select name=supporter_id>';
 				createSupporterMenu($sg);
 				echo '</select>
@@ -201,7 +201,7 @@ function createSupporterInfo()
 				</tr>
 				<tr>
 				<td width=100 class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
-				<td class=back>
+				<td class=back width="190">
 				<select name=priority>';
 				
 				createPriorityMenu();  
@@ -209,7 +209,7 @@ function createSupporterInfo()
 		echo '</select>
 				</td>
 				<td class=back2 align=right width=100>'.$lang_ticket.' '.$lang_status.':</td>
-				<td class=back>
+				<td class=back width=190>
 				<select name=status>';
 				
 				createStatusMenu(1,1);

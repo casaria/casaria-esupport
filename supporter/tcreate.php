@@ -200,8 +200,8 @@ function createSupporterInfo()
 				</td>
 				</tr>
 				<tr>
-				<td width=100 class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
-				<td class=back width=190>
+				<td width=20% class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
+				<td class=back width=20%>
 				<select name=priority>';
 				
 				createPriorityMenu();  

@@ -1806,14 +1806,14 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 						</tr>		
 						<tr>
 							<td class=back2 width=100 align=right>* '.$lang_platform.':</td>
-							<td width=190 class=back><select name=platform>'; createPlatformMenu(0);
+							<td width=200 class=back><select name=platform>'; createPlatformMenu(0);
     echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_category.':</td>
-							<td class=back width=190><select name=category>';  createCategoryMenu(0);
+							<td class=back width=200><select name=category>';  createCategoryMenu(0);
     echo '	</select></td>
 						</tr>
 						<tr>
 							<td width=100 class=back2 align=right>* '.$lang_equipment.':</td>
-							<td class=back width=190><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
+							<td class=back width=200><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
     echo '	</select></td>';
     if (isAdministrator($cookie_name)) {
         echo '<td class=back2 width=100 align=right>'.'*'.$lang_createdate.':';
@@ -1866,7 +1866,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
     }
     if($enable_tattachments == 'On' && $flag == 'allow'){
         echo '<tr>
-				<td class=back2 align=right valign=top width=110>'.$lang_attachment.': </td>';
+				<td class=back2 align=right valign=top width=100>'.$lang_attachment.': </td>';
 
         echo "<td class=back colspan=3 valign=bottom>";
         //echo "<input type=hidden name=\"MAX_FILE_SIZE\" value=\"1000000\">";

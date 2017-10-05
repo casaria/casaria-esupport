@@ -1807,7 +1807,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 						<tr>
 							<td class=back2 width=20% align=right>* '.$lang_platform.':</td>
 							<td width=25% class=back><select name=platform>'; createPlatformMenu(0);
-							echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_category.':</td>
+							echo '	</select></td><td class=back2 width=20% align=right>* '.$lang_category.':</td>
 							<td class=back><select name=category>';  createCategoryMenu(0);
 							echo '	</select></td>
 						</tr>
@@ -1816,7 +1816,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 							<td class=back width=25%><select name=equipment>';  createEquipmentMenu(0,$equipmentgroupid);
 							echo '	</select></td>';
 							if (isAdministrator($cookie_name)) {
-                                echo '<td class=back2 width=100 align=right>* ' . $lang_createdate . ':</td><td class=back>';
+                                echo '<td class=back2 width=20% align=right>* ' . $lang_createdate . ':</td><td class=back>';
                                 createDateMenu();
                                 echo '</td>';
 							}

@@ -2291,7 +2291,7 @@ function startTable($msg, $align, $width=100, $colspan=1, $class=info)
 	echo '<TABLE class=border cellSpacing=0 cellPadding=0 width="'.$width.'%" align=$align border=0>
 			<TR> 
 			<TD> 
-				<TABLE cellSpacing=1 cellPadding=5 width="100%" border=0>
+				<TABLE cellSpacing=1 cellPadding=3 width="100%" border=0>
 					<TR> 
 					<TD class='.$class.' colspan='.$colspan.' align='.$align.'><B>';
 						echo $msg;

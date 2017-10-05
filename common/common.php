@@ -1827,7 +1827,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 	echo'								
 						</tr>
 						<tr>
-							<td width=20% class=back2 align=right>* '.$lang_shortdesc.':</td>
+							<td width=100 class=back2 align=right>* '.$lang_shortdesc.':</td>
 							<td class=back colspan=3>
 						
 							<input type=text size=60 name=short value="'.stripslashes($info['short']).'">
@@ -1836,7 +1836,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 						</tr>
 						<tr>
 
-							<td class=back2 align=right valign=top width=20%>* '.$lang_desc.': </td>
+							<td class=back2 align=right valign=top width=100>* '.$lang_desc.': </td>
 							<td class=back colspan=3><textarea name=description rows=5 cols=60>'.stripslashes($info['description']).'</textarea></td>
 
 
@@ -1847,14 +1847,14 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
             echo '
 
 			<tr>
-				<td class=back2 align=right valign=top width=20%> ' . $lang_email . ' ' . $lang_user . '</td>
+				<td class=back2 align=right valign=top width=100> ' . $lang_email . ' ' . $lang_user . '</td>
 				<td class=back colspan=3 valign=bottom> <textarea name=email_msg rows=5 cols=60></textarea></td>
 			</tr>';
         }
         echo '
 			<tr>
 
-			<td class=back2 align=right valign=top width=20%> ' . $lang_update . ': </td>
+			<td class=back2 align=right valign=top width=100> ' . $lang_update . ': </td>
 			<td class=back colspan=3 valign=bottom> <textarea name=update_log rows=5 cols=60></textarea>
 
 				<a href="updatelog.php?cookie_name=' . $cookie_name . '&id=' . $info['id'] . '" target="myWindow" onClick="window.open(\'\', \'myWindow\',

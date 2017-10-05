@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="PublishConfigData" serverName="casaria.net" uploadOnCheckin="8480c2f5-8507-4803-ada1-4a1a2ce8cc64">
+  <component name="PublishConfigData" autoUpload="Always" serverName="esupport.casaria.net" uploadOnCheckin="d5067280-9d13-4d9e-ab36-3abade15bcf6">
     <serverData>
       <paths name="casaria.net">
         <serverdata>
@@ -9,14 +9,22 @@
           </mappings>
         </serverdata>
       </paths>
+      <paths name="esupport.casaria.net">
+        <serverdata>
+          <mappings>
+            <mapping deploy="/var/www/casaria/support" local="$PROJECT_DIR$" web="/" />
+          </mappings>
+        </serverdata>
+      </paths>
       <paths name="eval.casaria.net (project level)">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="/" />
+            <mapping deploy="/var/www/casaria/eval" local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
     </serverData>
-    <option name="myUploadOnCheckinName" value="casaria.net" />
+    <option name="myUploadOnCheckinName" value="esupport.casaria.net" />
+    <option name="myAutoUpload" value="ALWAYS" />
   </component>
 </project>

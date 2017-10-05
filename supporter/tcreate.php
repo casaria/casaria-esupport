@@ -326,8 +326,7 @@ function createSupportGroupMenu($ugroup=1)
 	$sql = "select id, group_name from $mysql_sgroups_table order by rank asc";
 	$result = $db->query($sql);
 	$num_rows = $db->num_rows($result);
-	
-	
+
 		while($row = $db->fetch_array($result)){
 			if($num_rows == 1 || $row[id] != 1){
 				echo "<option value=\"index.php?t=tcre&ug=$ug&userid=$userid&sg=$row[id]\"";
@@ -341,7 +340,7 @@ function createSupportGroupMenu($ugroup=1)
 	return $sg;
 }
 
-function createUserInfo()
+function    createUserInfo()
 {
 	global $db, $mysql_users_table, $lang_createdby, $lang_username,$Ug, $userid, $lang_email, $lang_office, $lang_phoneext;
  	

@@ -110,7 +110,7 @@ border=0>
             <TABLE width="100%" align=center border=0>
               <TBODY> 
               <TR> 
-                <TD vAlign=top width="190"> 
+                <TD vAlign=top width="180"> 
                     <TABLE class=border cellSpacing=0 cellPadding=0 width="100%" border-spacing="1px" align=center border=0>
                     <TBODY> 
                     <TR> 
@@ -247,7 +247,7 @@ border=0>
 //if the admin is logged in, display a list of people/users who are awaiting approval.
 if (isAdministrator($cookie_name) && $awaiting_approval){
 
-  	echo '<br><TABLE class=border cellSpacing=0 cellPadding=0 width="100%" 
+  	echo '<br><TABLE class=border cellSpacing=0 cellPadding=0 width=180 
                   align=center border=0>
                     <TBODY> 
                     <TR> 

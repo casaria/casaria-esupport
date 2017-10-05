@@ -97,21 +97,29 @@ border=0>
         <TR> 
           <TD class=hf align=right>
 			<?php echo "$lang_loggedinas <b>$cookie_name</b> (<A class=hf href=\"../common/logout.php\">$lang_logout</a>)";
-			 echo " $crm_name"; ?>
+			 echo "$crm_name"; ?>
 		 </TD>
         </TR>
         <TR> 
           <TD class=back align=left> <IMG SRC="../<?php echo $theme['image_dir'].$theme['logo_path']; ?>">
-
+          
+            <TABLE width="100%">
+              <TBODY> 
+              <TR> 
+                <TD class=back vAlign=top align=right></TD>
+              </TR>
+              </TBODY> 
+            </TABLE>
             <?php 
     if (!$hidemenu) 
     {        
             echo '
-            <TABLE width="100%" align=center colspan=2 cellspacing=2 border=0>
+            <TABLE width="100%" align=center border=0>
               <TBODY> 
               <TR> 
-                <TD vAlign=top width="180"> 
-                    <TABLE class=border cellSpacing=0 cellPadding=0 width="100%" border-spacing="1px" align=center border=0>
+                <TD vAlign=top width="200"> 
+                  <TABLE class=border cellSpacing=0 cellPadding=0 width="100%" 
+                  align=center border=0>
                     <TBODY> 
                     <TR> 
                       <TD> 
@@ -122,7 +130,7 @@ border=0>
                              echo $lang_Supporter . " " . $lang_options; 
                              echo '
                              </B></TD>
-                             </TR>
+                          </TR>
                           <TR> 
                             <TD class=cat><B><?php echo $lang_adminlink; ?></B></TD>
                           </TR>
@@ -133,7 +141,7 @@ border=0>
                                  <input type=hidden name=md5 value=$user_info[password]>";
                                  echo '<LI><a href="#" onclick="javascript:document.timelink.submit();">CBB Casaria Bulletin Board</a></LI>
                               </form>	
-                               <form novalidate name="login_form" id="login_form" action="http://webmail.casaria.net" method="post"  style="visibility:">';
+                               <form novalidate name="login_form" id="login_form" action="http://www.casaria.net:2095/horde/index.php" method="post"  style="visibility:">';
                                 //<form name=emaillink method="post" action="http://www.casaria.net:2095/horde/index.php">';
                                  echo "<input type=hidden name=user id=user value=$user_info[email]>
                                  <input type=hidden name=pass id=pass value=$user_info[password]>";
@@ -247,7 +255,7 @@ border=0>
 //if the admin is logged in, display a list of people/users who are awaiting approval.
 if (isAdministrator($cookie_name) && $awaiting_approval){
 
-  	echo '<TABLE class=border cellSpacing=1 cellPadding=0 width=180 
+  	echo '<br><TABLE class=border cellSpacing=0 cellPadding=0 width="100%" 
                   align=center border=0>
                     <TBODY> 
                     <TR> 
@@ -271,16 +279,13 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
                  }  
 
 
-                $showticket = false;
+
                 echo '</TD>
                 <TD vAlign=top>';
     } else $getstats=true;
-
-                    switch($t){
-
-                        case ("tkt-success"):
-                            $showticket = true;
-                            break;
+?>
+<?php
+					switch($t){
 						case ("tcre"):
 							require "tcreate.php";
 							break;
@@ -361,14 +366,8 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
 							require "announce.php";
 							break;
 					}
-                                $sql = "SELECT 'id' FROM $mysql_tickets_table ORDER BY 'id' DESC LIMIT 1";
-                                $result = $db->query($sql);
-                                $row = $db->fetch_row($result);
-                                $id = $row[0];
-                                $lastticketid=$id;
-
-                    if ($showticket)  echo "Ticket susccesfully created:  TKT# $lasticketid <BR>";
-
+		  
+						  
 					?>
 				
               </TR>
@@ -376,9 +375,9 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
             </TABLE>
             <BR>
           </TD>
-        </TR
+        </TR>
 		<?php
-
+		
 		if($enable_whosonline == 'On'){
 			echo "<TR>
 				<TD class=cat>";
@@ -394,9 +393,9 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
 
 		  echo '
             <div align="center">
-                <A class=hf href="'.$supporter_site_url.'/index.php">'.$lang_home.'</A> |&nbsp;';
+			<A class=hf href="'.$supporter_site_url.'/index.php">'.$lang_home.'</A> |&nbsp;';
 			if(isAdministrator($cookie_name)){
-				echo '<A class=hf href="'.$admin_site_url.'/control.php">'.$lang_cp.'</A> |&nbsp;';
+				echo '<A class=hf href="'.$admin_site_url.'/control.php">'.$lang_cp.'</a> |&nbsp;';
 			}
 			if($enable_forum == 'On'){
 				echo '<A class=hf href="'.$forum_site_url.'" target=_blank>'.$lang_forum.'</A> |&nbsp;';
@@ -413,10 +412,10 @@ if (isAdministrator($cookie_name) && $awaiting_approval){
 
           </TD>
         </TR>
-        </TBODY>
+        </TBODY> 
       </TABLE>
   </TR>
-  </TBODY>
+  </TBODY> 
 </TABLE>
 
 <?php

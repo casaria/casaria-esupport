@@ -32,6 +32,8 @@
 			***************************************************************************************/
 
 //create the connection to the database.
+
+require_once 'config.php';
 $pconnect = 0;
 $db = new $database();
 $db->connect($db_host, $db_user, $db_pwd, $db_name, $pconnect);

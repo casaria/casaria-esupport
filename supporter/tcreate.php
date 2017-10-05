@@ -80,7 +80,7 @@ if(isset($create)){
 	$billing_status = "0";
     $ctimestamp = mktime($chour, $cminute, 0,$cmonth, $cday, $cyear, -1);
 
-    if ($cyyear <= $timenow['tm_year'] ) {
+    if ((isset($cyear)) && ($cyear <= $timenow['tm_year'] )) {
         $ctimestamp = mktime($chour, $cminute, 0, $cmonth, $cday, $cyear, -1);
     } else {
         $ctimestamp = $time;

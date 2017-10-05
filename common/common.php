@@ -1866,7 +1866,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
     }
     if($enable_tattachments == 'On' && $flag == 'allow'){
         echo '<tr>
-				<td class=back2 align=right valign=top width=20%>'.$lang_attachment.': </td>';
+				<td class=back2 align=right valign=top width=110>'.$lang_attachment.': </td>';
 
         echo "<td class=back colspan=3 valign=bottom>";
         //echo "<input type=hidden name=\"MAX_FILE_SIZE\" value=\"1000000\">";

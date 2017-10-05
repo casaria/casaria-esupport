@@ -183,7 +183,7 @@ function createSupporterInfo($group_id)
 					
 		echo '<tr>
 				<td width=20% class=back2 align=right>'.$lang_supportergroup.':</td>
-				<td class=back width=25%>';
+				<td class=back width=30%>';
 				?>
 				<select name=group onChange="MM_jumpMenu('parent', this, 0)">
 				<?php
@@ -292,14 +292,14 @@ function createUserInfo($groupname)
 		if($pubpriv == "Private"){
 			echo "<tr>
 				<td width=20% class=back2 align=right>* $lang_username:</td>
-				<td width=20% class=back align=left> $cookie_user_name
+				<td width=30% class=back align=left> $cookie_user_name
 					<input type=hidden name=username value=\"$cookie_user_name\">
 				</td>";
 		}
 		else{
 			echo "<tr>
 				<td width=20% class=back2 align=right>* $lang_username:</td>
-				<td width=20% class=back align=left>
+				<td width=30% class=back align=left>
 					<input type=text size=16 name=username value=\"$cookie_user_name\">
 				</td>";
 		}
@@ -307,7 +307,7 @@ function createUserInfo($groupname)
 
 			echo "
 				<td class=back2 align=right width=20%> $lang_email: </td>
-				<td class=back align=left>
+				<td class=back width=30% align=left>
 					<input type=text name=email value=\"$cookie_email\">
 				</td>
 				</tr>
@@ -317,7 +317,7 @@ function createUserInfo($groupname)
 					<input type=text size=16 name=office value=\"$cookie_office\">
 				</td>
 				<td class=back2 align=right> $lang_phoneext:</td>
-				<td class=back>
+				<td class=back width=30%>
 					<input type=text name=phone value=\"$cookie_phone\">
 				</td>";
 

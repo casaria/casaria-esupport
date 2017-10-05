@@ -247,7 +247,7 @@ border=0>
 //if the admin is logged in, display a list of people/users who are awaiting approval.
 if (isAdministrator($cookie_name) && $awaiting_approval){
 
-  	echo '<TABLE class=border cellSpacing=0 cellPadding=0 width=180 
+  	echo '<TABLE class=border cellSpacing=1 cellPadding=0 width=180 
                   align=center border=0>
                     <TBODY> 
                     <TR> 

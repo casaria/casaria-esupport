@@ -188,10 +188,9 @@ function createSupporterInfo()
 				?>
 				<select name=group onChange="MM_jumpMenu('parent', this, 0)">
 				<?php
-				
 				$sg=createSupportGroupMenu($ug);
 	        	echo '</select>';
-		echo '</td>
+		echo    '</td>
 				<td class=back2 align=right width=100>'.$lang_supporter.': </td>
 				<td class=back align=left  width=190>
 				<select name=supporter_id>';

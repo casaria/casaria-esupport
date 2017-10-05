@@ -306,13 +306,13 @@ function createUserInfo($groupname)
 
 
 			echo "
-				<td class=back2 align=right width=25%> $lang_email: </td>
+				<td class=back2 align=right width=20%> $lang_email: </td>
 				<td class=back align=left>
 					<input type=text name=email value=\"$cookie_email\">
 				</td>
 				</tr>
 				<tr>
-				<td width=25% class=back2 align=left>* $lang_office:</td>
+				<td width=20% class=back2 align=RIGHT>* $lang_office:</td>
 				<td class=back>
 					<input type=text size=16 name=office value=\"$cookie_office\">
 				</td>

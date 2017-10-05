@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/common.php" afterPath="$PROJECT_DIR$/common/common.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -723,14 +722,7 @@
       <workItem from="1506369804290" duration="13343000" />
       <workItem from="1506656109696" duration="3698000" />
       <workItem from="1506894089749" duration="41367000" />
-      <workItem from="1507178766264" duration="14637000" />
-    </task>
-    <task id="LOCAL-00299" summary="require_once style.php in common.php if user inactive">
-      <created>1507148284912</created>
-      <option name="number" value="00299" />
-      <option name="presentableId" value="LOCAL-00299" />
-      <option name="project" value="LOCAL" />
-      <updated>1507148284912</updated>
+      <workItem from="1507178766264" duration="14660000" />
     </task>
     <task id="LOCAL-00300" summary="$includePath added to imndex.php (user}">
       <created>1507163167320</created>
@@ -1068,11 +1060,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507199592959</updated>
     </task>
-    <option name="localTasksCounter" value="348" />
+    <task id="LOCAL-00348" summary="&#10;cleanup creat ticket ui">
+      <created>1507199764694</created>
+      <option name="number" value="00348" />
+      <option name="presentableId" value="LOCAL-00348" />
+      <option name="project" value="LOCAL" />
+      <updated>1507199764694</updated>
+    </task>
+    <option name="localTasksCounter" value="349" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="244038000" />
+    <option name="totallyTimeSpent" value="244061000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

@@ -291,14 +291,14 @@ function createUserInfo($groupname)
 	startTable("$lang_userinfo  ($groupname)", "center", 100, 4);
 		if($pubpriv == "Private"){
 			echo "<tr>
-				<td width=20% class=back2 align=left>* $lang_username:</td>
+				<td width=20% class=back2 align=right>* $lang_username:</td>
 				<td width=20% class=back align=left> $cookie_user_name
 					<input type=hidden name=username value=\"$cookie_user_name\">
 				</td>";
 		}
 		else{
 			echo "<tr>
-				<td width=20% class=back2 align=left>* $lang_username:</td>
+				<td width=20% class=back2 align=right>* $lang_username:</td>
 				<td width=20% class=back align=left>
 					<input type=text size=16 name=username value=\"$cookie_user_name\">
 				</td>";
@@ -306,7 +306,7 @@ function createUserInfo($groupname)
 
 
 			echo "
-				<td class=back2 align=left width=25%> $lang_email: </td>
+				<td class=back2 align=right width=25%> $lang_email: </td>
 				<td class=back align=left>
 					<input type=text name=email value=\"$cookie_email\">
 				</td>

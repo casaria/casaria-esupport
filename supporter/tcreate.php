@@ -143,7 +143,7 @@ else{
 		//--></script>
 
 <?php
-
+    ECHO '<br>';
 	createTicketHeader("$lang_create $lang_ticket");
 	createSupporterInfo();
 	createNotificationPanel();	

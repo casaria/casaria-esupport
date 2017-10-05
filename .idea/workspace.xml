@@ -12,7 +12,6 @@
   <component name="ChangeListManager">
     <list default="true" id="cce5a29d-03e1-4d66-b900-6e10479f00cd" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/common/common.php" afterPath="$PROJECT_DIR$/common/common.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -767,14 +766,7 @@
       <workItem from="1506369804290" duration="13343000" />
       <workItem from="1506656109696" duration="3698000" />
       <workItem from="1506894089749" duration="41367000" />
-      <workItem from="1507178766264" duration="4459000" />
-    </task>
-    <task id="LOCAL-00272" summary="localtime create time">
-      <created>1507046498989</created>
-      <option name="number" value="00272" />
-      <option name="presentableId" value="LOCAL-00272" />
-      <option name="project" value="LOCAL" />
-      <updated>1507046498989</updated>
+      <workItem from="1507178766264" duration="4474000" />
     </task>
     <task id="LOCAL-00273" summary="localtime create time">
       <created>1507046694158</created>
@@ -1112,11 +1104,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507187316789</updated>
     </task>
-    <option name="localTasksCounter" value="321" />
+    <task id="LOCAL-00321" summary="&#10;cleanup creat ticket ui">
+      <created>1507188142843</created>
+      <option name="number" value="00321" />
+      <option name="presentableId" value="LOCAL-00321" />
+      <option name="project" value="LOCAL" />
+      <updated>1507188142843</updated>
+    </task>
+    <option name="localTasksCounter" value="322" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="233860000" />
+    <option name="totallyTimeSpent" value="233875000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">

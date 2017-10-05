@@ -3442,7 +3442,7 @@ function createTicketHeader($msg)
 {
 	global $info;
 
-	startTable($msg, "center");	
+	startTable($msg, "left");
 	endTable();
 
 }

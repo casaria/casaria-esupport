@@ -241,7 +241,7 @@ global $db, $mysql_ugroups_table, $info, $lang_emailgroup, $lang_emailstatuschan
 startTable("$lang_notification ", "left", 100, 4);
 echo '
     <tr>
-     <td class="back2" width="30%">'.$lang_emailgroup.': </td>
+     <td class="back2" width="25%">'.$lang_emailgroup.': </td>
      <td class="back">'.
     "<input class=box type=checkbox";
 				if($row[email_all] == "On"){
@@ -251,7 +251,7 @@ echo '
     '</td>
     </tr>
     <tr>
-     <td class="back2" width="30%">'.$lang_emailstatuschange.': </td>
+     <td class="back2" width="25%">'.$lang_emailstatuschange.': </td>
      <td class="back">'.
     "<input class=box type=checkbox";
 			echo " checked";
@@ -259,7 +259,7 @@ echo '
     '</td>
     </tr>
     <tr>
-     <td class="back2" width="30%">'.$lang_emailcc.': </td>
+     <td class="back2" width="25%">'.$lang_emailcc.': </td>
      <td class="back">
 								<input type=text size=72 name=emailcc value="'.'">
 							</td>
@@ -292,14 +292,14 @@ function createUserInfo($groupname)
 		if($pubpriv == "Private"){
 			echo "<tr>
 				<td width=20% class=back2 align=right>* $lang_username:</td>
-				<td width=30% class=back align=left> $cookie_user_name
+				<td width=25% class=back align=left> $cookie_user_name
 					<input type=hidden name=username value=\"$cookie_user_name\">
 				</td>";
 		}
 		else{
 			echo "<tr>
 				<td width=20% class=back2 align=right>* $lang_username:</td>
-				<td width=30% class=back align=left>
+				<td width=25% class=back align=left>
 					<input type=text size=16 name=username value=\"$cookie_user_name\">
 				</td>";
 		}
@@ -307,17 +307,17 @@ function createUserInfo($groupname)
 
 			echo "
 				<td class=back2 align=right width=20%> $lang_email: </td>
-				<td class=back width=30% align=left>
+				<td class=back width=25% align=left>
 					<input type=text name=email value=\"$cookie_email\">
 				</td>
 				</tr>
 				<tr>
 				<td width=20% class=back2 align=RIGHT>* $lang_office:</td>
-				<td class=back>
+				<td class=back width=25%>
 					<input type=text size=16 name=office value=\"$cookie_office\">
 				</td>
 				<td class=back2 align=right> $lang_phoneext:</td>
-				<td class=back width=30%>
+				<td class=back width=25%>
 					<input type=text name=phone value=\"$cookie_phone\">
 				</td>";
 

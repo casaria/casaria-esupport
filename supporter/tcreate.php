@@ -173,7 +173,7 @@ function createSupporterInfo()
 
 	startTable("$lang_supporterinfo", "left", 100, 4);
 		echo '<tr>
-				<td width=20% class=back2 align=right>* '.$lang_group.':</td>
+				<td width=100 class=back2 align=right>* '.$lang_group.':</td>
 				<td class=back colspan=3 width=25%>';
 				?>
 			    	<select name=usergroup_name onChange="MM_jumpMenu('parent', this, 0)">
@@ -183,7 +183,7 @@ function createSupporterInfo()
 				</td></tr>					
 		
 				<tr>
-				<td width=20% class=back2 align=right>'.$lang_supportergroup.':</td>
+				<td width=100 class=back2 align=right>'.$lang_supportergroup.':</td>
 				<td class=back width=25%>';
 				?>
 				<select name=group onChange="MM_jumpMenu('parent', this, 0)">
@@ -374,7 +374,7 @@ function createUserInfo()
 				echo "</td>
 				<td class=back2 align=right width=100>".$lang_email.": </td>
 				<td class=back align=left>
-					<input type=text size=20% name=email value=\"$row[email]\">
+					<input type=text size=190 name=email value=\"$row[email]\">
 				</td>
 				</tr>
 				<tr>

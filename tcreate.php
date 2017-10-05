@@ -241,7 +241,7 @@ global $db, $mysql_ugroups_table, $info, $lang_emailgroup, $lang_emailstatuschan
 startTable("$lang_notification ", "left", 100, 4);
 echo '
     <tr>
-     <td class="back2" width="20%">'.$lang_emailgroup.': </td>
+     <td class="back2" width="30%">'.$lang_emailgroup.': </td>
      <td class="back">'.
     "<input class=box type=checkbox";
 				if($row[email_all] == "On"){
@@ -251,7 +251,7 @@ echo '
     '</td>
     </tr>
     <tr>
-     <td class="back2" width="20%">'.$lang_emailstatuschange.': </td>
+     <td class="back2" width="30%">'.$lang_emailstatuschange.': </td>
      <td class="back">'.
     "<input class=box type=checkbox";
 			echo " checked";
@@ -259,7 +259,7 @@ echo '
     '</td>
     </tr>
     <tr>
-     <td class="back2" width="20%">'.$lang_emailcc.': </td>
+     <td class="back2" width="30%">'.$lang_emailcc.': </td>
      <td class="back">
 								<input type=text size=72 name=emailcc value="'.'">
 							</td>

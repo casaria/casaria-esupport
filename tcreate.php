@@ -192,7 +192,7 @@ function createSupporterInfo($group_id)
 
 		echo '</select>
 				</td>
-				<td width=100 class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
+				<td width=20% class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
 				<td class=back width=25%>
 				<select name=priority>';
 				

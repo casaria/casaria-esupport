@@ -143,7 +143,7 @@ else{
   $user_id = getUserID($cookie_name);
 	$groups = getUsersGroupList($user_id);
 	for ($i=0; $i< sizeof ($groups); $i++) {
-		 $group_id =  eregi_replace("ugroup", "", $groups[$i]);
+		 $group_id =  preg_replace ("/ugroup/i", "", $groups[$i]);
 		 $groupname = getuGroup($group_id);
 	}
 	createTicketHeader("$lang_create $lang_ticket");

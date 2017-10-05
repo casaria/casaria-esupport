@@ -1806,7 +1806,7 @@ function createTicketInfo($flag='allow', $equipmentgroupid = 0)
 						</tr>		
 						<tr>
 							<td class=back2 width=100 align=right>* '.$lang_platform.':</td>
-							<td width=200 class=back><select name=platform>'; createPlatformMenu(0);
+							<td width=200    class=back><select name=platform>'; createPlatformMenu(0);
     echo '	</select></td><td class=back2 width=100 align=right>* '.$lang_category.':</td>
 							<td class=back width=200><select name=category>';  createCategoryMenu(0);
     echo '	</select></td>

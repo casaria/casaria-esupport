@@ -291,7 +291,7 @@ function createUserInfo($groupname)
 	startTable("$lang_userinfo  ($groupname)", "center", 100, 4);
 		if($pubpriv == "Private"){
 			echo "<tr>
-				<td width=20% class=back2 align=right>* $lang_username:</td>
+				<td width=20% class=back2 align=left>* $lang_username:</td>
 				<td width=20% class=back align=left> $cookie_user_name
 					<input type=hidden name=username value=\"$cookie_user_name\">
 				</td>";

@@ -190,8 +190,8 @@ function createSupporterInfo()
 				<?php
 				
 				$sg=createSupportGroupMenu($ug);
-		echo '</select>
-				</td>
+	        	echo '</select>';
+		echo '</td>
 				<td class=back2 align=right width=100>'.$lang_supporter.': </td>
 				<td class=back align=left  width=190>
 				<select name=supporter_id>';
@@ -213,7 +213,7 @@ function createSupporterInfo()
 				<select name=status>';
 				
 				createStatusMenu(1,1);
-							
+
 		echo '</select>
 				</td>
 				</tr>';

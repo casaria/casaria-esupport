@@ -356,7 +356,7 @@ function createUserInfo()
 				
 				
 				<td width=100 class=back2 align=right>'.$lang_username.':</td>
-				<td class=back width=25%>';
+				<td class=back width=190>';
 					
 				?>
 			    	<select name=userlink onChange="MM_jumpMenu('parent', this, 0)">

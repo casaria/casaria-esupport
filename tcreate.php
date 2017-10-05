@@ -183,7 +183,7 @@ function createSupporterInfo($group_id)
 					
 		echo '<tr>
 				<td width=20% class=back2 align=right>'.$lang_supportergroup.':</td>
-				<td class=back width=30%>';
+				<td class=back width=25%>';
 				?>
 				<select name=group onChange="MM_jumpMenu('parent', this, 0)">
 				<?php
@@ -193,7 +193,7 @@ function createSupporterInfo($group_id)
 		echo '</select>
 				</td>
 				<td width=100 class=back2 align=right>'.$lang_ticket.' '.$lang_priority.':</td>
-				<td class=back>
+				<td class=back width=25%>
 				<select name=priority>';
 				
 				createPriorityMenu();
@@ -288,7 +288,7 @@ function createUserInfo($groupname)
 	
 
 	if($groupname =='') $groupname = "No Group ERROR";
-	startTable("$lang_userinfo  ($groupname)", "center", 100, 4);
+	startTable("$lang_userinfo  ($groupname)", "left", 100, 4);
 		if($pubpriv == "Private"){
 			echo "<tr>
 				<td width=20% class=back2 align=right>* $lang_username:</td>

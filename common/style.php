@@ -74,7 +74,7 @@ $tablePadding = 15;
 	<STYLE type="text/css">
 
 		@import url(https://fonts.googleapis.com/css?family=Lato);
-
+        element.style.width = 800px;
 
 		BODY {background: <?php echo $theme['bgcolor'];?> ; color: black;}
 
@@ -127,7 +127,8 @@ $tablePadding = 15;
 		<?php
 
 
-         if(eregi("IE", $HTTP_USER_AGENT)){ ?>
+         if(preg_match("/IE/i", $HTTP_USER_AGENT)){ ?>
+
                 select, option, textarea, input {border: 1px solid <?php echo $theme['table_border']; ?>; font-family: "<?php echo $theme['font']; ?>", arial, helvetica, sans-serif; font-size: 	11px; font-weight: bold; background: <?php echo $theme['subcategory']; ?>; color: <?php echo $theme['text']; ?>;} <?php
         }
         else{ ?>

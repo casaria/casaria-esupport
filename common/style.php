@@ -76,8 +76,8 @@ $tablePadding = 15;
 		@import url(https://fonts.googleapis.com/css?family=Lato);
 
 
-		BODY {background: <?php echo $theme['bgcolor'];?> ; color: black; }
-        .style.width = 800px;
+		BODY {background: <?php echo $theme['bgcolor'];?> ; color: black;  style="width = 800px;"k }
+
 		a:link {text-decoration: none; color: <?php echo $theme['link']; ?>;}
 		a:visited {text-decoration: none; color: <?php echo $theme['link']; ?>;}
 		a:active {text-decoration: none; color: <?php echo $theme['link']; ?>;}

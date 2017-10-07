@@ -74,10 +74,10 @@ $tablePadding = 15;
 	<STYLE type="text/css">
 
 		@import url(https://fonts.googleapis.com/css?family=Lato);
-        element.style.width = 800px;
 
-		BODY {background: <?php echo $theme['bgcolor'];?> ; color: black;}
 
+		BODY {background: <?php echo $theme['bgcolor'];?> ; color: black; }
+        .style.width = 800px;
 		a:link {text-decoration: none; color: <?php echo $theme['link']; ?>;}
 		a:visited {text-decoration: none; color: <?php echo $theme['link']; ?>;}
 		a:active {text-decoration: none; color: <?php echo $theme['link']; ?>;}
